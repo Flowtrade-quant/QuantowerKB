@@ -1,12 +1,12 @@
 ---
-description: Basic settings and features for charts in Quantower
+description: Basic settings and features for charts in FlowTrade
 ---
 
 # Chart Overview
 
 The chart panel is one of the most important panel for an active trader. Accurate market data, graphical and analytical tools are integral components of the panel, which allow you to make the right trading decisions.
 
-![Main parts of Chart panel in Quantower](../../.gitbook/assets/main-parts-of-chart-panel-in-quantower.png)
+![Main parts of Chart panel in FlowTrade](../../.gitbook/assets/main-parts-of-chart-panel-in-FlowTrade.png)
 
 The chart panel can be divided into 5 parts:
 
@@ -22,9 +22,9 @@ The top toolbar allows you to select a trading instrument, set the chart type an
 
 * Sidebar menu with [**Drawing tools**](drawing-tools.md), [**Overlays**](chart-overlays.md) and [**Indicators**](technical-indicators/)****
 * ****[**Symbol Lookup**](../../general-settings/instruments-lookup.md) where you can find the trading symbol from the list
-* **Timeframe selector** with chart types. Here is the list of [**chart types and styles**](https://help.quantower.com/analytics-panels/chart/chart-types) where you can find a detailed explanation of how to build them.
+* **Timeframe selector** with chart types. Here is the list of [**chart types and styles**](https://kb.flowtrade.com/analytics-panels/chart/chart-types) where you can find a detailed explanation of how to build them.
 * **Depth of History** for the selected timeframe
-* **Chart Styles** — Bar, Candle, Line, Area, Dotted Line, Quantower chart style
+* **Chart Styles** — Bar, Candle, Line, Area, Dotted Line, FlowTrade chart style
 * [**Volume Analysis Tools**](volume-analysis-tools/) — activates the volume analysis tool management menu at the bottom of the chart panel
 * **Keyboard Trading mode** — activates the keyboard trading mode for quick trading. You can change trading hotkeys in the chart settings
 * **Mouse Trading mode** for placing orders via chart area using the mouse.

@@ -8,7 +8,7 @@ description: Draw highlighted areas between two indicator lines.
 
 “Clouds” are areas highlighted with a special color drawn between two line series. Usually, they are used to highlight some special region on the chart. So, it’s one more great visual effect which can make your script more user friendly and even more useful.
 
-To start drawing a cloud area we need to invoke the ‘[BeginCloud](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.Indicator.html#TradingPlatform_BusinessLayer_Indicator_BeginCloud_System_Int32_System_Int32_System_Drawing_Color_System_Int32_)’ method and pass required parameters. If we want to end drawing the area - invoke ‘[EndCloud](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.Indicator.html#TradingPlatform_BusinessLayer_Indicator_EndCloud_System_Int32_System_Int32_System_Drawing_Color_System_Int32_)’ method. These methods are available for every indicator.
+To start drawing a cloud area we need to invoke the ‘[BeginCloud](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.Indicator.html#TradingPlatform_BusinessLayer_Indicator_BeginCloud_System_Int32_System_Int32_System_Drawing_Color_System_Int32_)’ method and pass required parameters. If we want to end drawing the area - invoke ‘[EndCloud](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.Indicator.html#TradingPlatform_BusinessLayer_Indicator_EndCloud_System_Int32_System_Int32_System_Drawing_Color_System_Int32_)’ method. These methods are available for every indicator.
 
 Let’s figure out the meaning of these parameters:
 
@@ -81,7 +81,7 @@ this.SlowAboveCloudColor = Color.FromArgb(127, Color.Red);
 
 In the ‘OnInit ‘ method we create two SMA indicators and attach them to our main ‘HistoricalData’. 
 
-> Notice, we use Quantower built-in indicator collection.
+> Notice, we use FlowTrade built-in indicator collection.
 
 ```csharp
 protected override void OnInit()

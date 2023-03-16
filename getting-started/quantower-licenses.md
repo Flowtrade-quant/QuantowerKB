@@ -4,15 +4,15 @@ description: >-
   separate features.
 ---
 
-# Quantower Licenses
+# FlowTrade Licenses
 
 We deliver the most popular trading and analytics functionality for free, but some valuable and market-specific features are available under the paid License.
 
 {% hint style="info" %}
-In case of any problems with your Quantower Account or License purchase — please [contact our Support team](https://www.quantower.com/contact-us)
+In case of any problems with your FlowTrade Account or License purchase — please [contact our Support team](https://www.flowtrade.com/contact-us)
 {% endhint %}
 
-To use any paid License, the trader needs to have an active [Quantower Account](quantower-account.md). If you don’t have one, you can create it during your License purchase process.
+To use any paid License, the trader needs to have an active [FlowTrade Account](FlowTrade-account.md). If you don’t have one, you can create it during your License purchase process.
 
 {% embed url="https://www.youtube.com/watch?v=sQVm6Pikz1E" %}
 
@@ -24,7 +24,7 @@ We offer a user with a Free license, three packages as well as licenses for sepa
 
 ![](../.gitbook/assets/pricing-page.png)
 
-**Free license** is granted by default once you have created a Quantower Account. Also, it will be available all the time when you don’t have any active paid License. Using Free license you will get:
+**Free license** is granted by default once you have created a FlowTrade Account. Also, it will be available all the time when you don’t have any active paid License. Using Free license you will get:
 
 * one active connection to any broker, data feed or exchange
 * 2 indicators per chart
@@ -34,18 +34,18 @@ We offer a user with a Free license, three packages as well as licenses for sepa
 
 * all connected crypto exchanges,&#x20;
 * simultaneous connection to several exchanges,&#x20;
-* [volume analysis tools](https://www.quantower.com/volumeanalysistools) — Cluster chart, Volume Profile, Time Statistics, Time Histogram, VWAP
-* [advanced features](https://www.quantower.com/advancedfeatures) — Renko, Kagi, P\&F and Heikin-Ashi chart types, Unlimited Overlays, Unlimited Indicators, Trading Simulator, Chart and Indicator Alerts
+* [volume analysis tools](https://www.flowtrade.com/volumeanalysistools) — Cluster chart, Volume Profile, Time Statistics, Time Histogram, VWAP
+* [advanced features](https://www.flowtrade.com/advancedfeatures) — Renko, Kagi, P\&F and Heikin-Ashi chart types, Unlimited Overlays, Unlimited Indicators, Trading Simulator, Chart and Indicator Alerts
 
 **Multi-Asset Package** includes all options that are available in the Crypto Package, plus gives access to Forex, Futures, Stock brokers and other data feeds.
 
 **All-in-One Package** includes all available features and connections. Also, all new features will be automatically added and available while your subscription is active.
 
-****[**DOM Surface**](https://www.quantower.com/blog/dom-surface-panel-for-deep-order-flow-analysis) license activates full access to the DOM Surface panel. In the free version of the panel, all accumulated data disappears after 3 minutes.
+****[**DOM Surface**](https://www.flowtrade.com/blog/dom-surface-panel-for-deep-order-flow-analysis) license activates full access to the DOM Surface panel. In the free version of the panel, all accumulated data disappears after 3 minutes.
 
-[**Power Trades Scanner**](https://help.quantower.com/analytics-panels/chart/power-trades) license activates the scanner that shows the execution of big amount of orders during the short time.
+[**Power Trades Scanner**](https://kb.flowtrade.com/analytics-panels/chart/power-trades) license activates the scanner that shows the execution of big amount of orders during the short time.
 
-[**Volume Analysis**](https://www.quantower.com/volumeanalysistools) license activates all available volume tools:
+[**Volume Analysis**](https://www.flowtrade.com/volumeanalysistools) license activates all available volume tools:
 
 * Cluster chart
 * Volume profiles (Right & Left, Custom, Step profiles)
@@ -54,15 +54,15 @@ We offer a user with a Free license, three packages as well as licenses for sepa
 * VWAP tool
 * Historical Time & Sales
 
-****[**Advanced Features**](https://www.quantower.com/advancedfeatures) license includes non-standard chart types, simultanious connections, additional functionalities for working with symbol’s history, unlimited chart overlays, and trading simulation.
+****[**Advanced Features**](https://www.flowtrade.com/advancedfeatures) license includes non-standard chart types, simultanious connections, additional functionalities for working with symbol’s history, unlimited chart overlays, and trading simulation.
 
-[**Options Trading**](https://www.quantower.com/options-trading-features) license activates Options Analytics panel. Currently it's available for free usage.
+[**Options Trading**](https://www.flowtrade.com/options-trading-features) license activates Options Analytics panel. Currently it's available for free usage.
 
 ## License purchase
 
-If you would like to upgrade your Free license, go to our [Pricing page](https://www.quantower.com/pricing), choose the necessary license, it's period and click on the **BUY** button.
+If you would like to upgrade your Free license, go to our [Pricing page](https://www.flowtrade.com/pricing), choose the necessary license, it's period and click on the **BUY** button.
 
-The purchase process starts with the authorization in the Quantower service. Use your email and password to Sign in to the account. If you don’t have one yet, follow the instructions on [Quantower Account manual](quantower-account.md). Just after you successfully Log in, you will be redirected to the purchase Cart.
+The purchase process starts with the authorization in the FlowTrade service. Use your email and password to Sign in to the account. If you don’t have one yet, follow the instructions on [FlowTrade Account manual](FlowTrade-account.md). Just after you successfully Log in, you will be redirected to the purchase Cart.
 
 Purchase cart contains the previously selected License type, term of validity and final Price. You can modify the term of validity to any desired option.
 
@@ -72,19 +72,19 @@ The next step is to select a payment provider and press the **Pay** button.
 Also, you can make payments in cryptocurrencies or use direct bank transfers. To do it contact our support team.
 {% endhint %}
 
-![Order payment for Quantower license](../.gitbook/assets/orderpayment-quantower-google-chrome-2019-05-16-11.24.10.png)
+![Order payment for FlowTrade license](../.gitbook/assets/orderpayment-FlowTrade-google-chrome-2019-05-16-11.24.10.png)
 
-After that, you will be redirected to the provider’s payment page. Once you complete all the payment steps, you will be redirected back to the confirmation page of Quantower Accounts. Follow the **GO TO DASHBOARD** link to get to your Quantower Account dashboard, where you should see you current Core License information and Payment transactions history.
+After that, you will be redirected to the provider’s payment page. Once you complete all the payment steps, you will be redirected back to the confirmation page of FlowTrade Accounts. Follow the **GO TO DASHBOARD** link to get to your FlowTrade Account dashboard, where you should see you current Core License information and Payment transactions history.
 
 ## License terms
 
-Currently, all licenses can be purchased for a 1-month term minimum. You can also get any Quantower paid License for the LIFETIME period — [contact our support](https://www.quantower.com/contact-us) for this.
+Currently, all licenses can be purchased for a 1-month term minimum. You can also get any FlowTrade paid License for the LIFETIME period — [contact our support](https://www.flowtrade.com/contact-us) for this.
 
-![Status of your licenses in Account dashboard](../.gitbook/assets/account-dashboard-quantower.png)
+![Status of your licenses in Account dashboard](../.gitbook/assets/account-dashboard-FlowTrade.png)
 
 ## Quick tips on License purchase
 
-* A free License is valid ALL THE TIME while your Quantower Account is active.
+* A free License is valid ALL THE TIME while your FlowTrade Account is active.
 * Any paid License is active from the purchase date till the end date (“Available till”).
 * Once your paid License is expired, the Account will be automatically downgraded to the Free License.
 * Every new purchase for the similar license type extends the “Available till” date on the purchasing term.

@@ -8,7 +8,7 @@ description: Access to aggregate and non-aggregate order book collections.
 
 Order book (or level2) is a collection of buy and sell orders for specific instruments organized by price level. Each level has three important values - price, size and side. This collection is dynamic, in other words, it is constantly updated in real time during the day.&#x20;
 
-Many professional traders develop their strategies using order book data. Quantower API provides users an easy way to get aggregated and non-aggregated order book snapshots. **** To use it you just need to execute the "[GetDepthOfMarketAggregatedCollections](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.DepthOfMarket.html#TradingPlatform\_BusinessLayer\_DepthOfMarket\_GetDepthOfMarketAggregatedCollections\_TradingPlatform\_BusinessLayer\_GetDepthOfMarketParameters\_)" method and pass the parameters you need. This method is located at the "[DepthOfMarket](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.DepthOfMarket.html)" class. Each instrument has its own "[DepthOfMarket](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.DepthOfMarket.html)" object.
+Many professional traders develop their strategies using order book data. FlowTrade API provides users an easy way to get aggregated and non-aggregated order book snapshots. **** To use it you just need to execute the "[GetDepthOfMarketAggregatedCollections](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.DepthOfMarket.html#TradingPlatform\_BusinessLayer\_DepthOfMarket\_GetDepthOfMarketAggregatedCollections\_TradingPlatform\_BusinessLayer\_GetDepthOfMarketParameters\_)" method and pass the parameters you need. This method is located at the "[DepthOfMarket](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.DepthOfMarket.html)" class. Each instrument has its own "[DepthOfMarket](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.DepthOfMarket.html)" object.
 
 #### Overloads
 
@@ -18,9 +18,9 @@ There are two method overloads:
 public DepthOfMarketAggregatedCollections GetDepthOfMarketAggregatedCollections(GetLevel2ItemsParameters parameters = null)
 ```
 
-This method takes the “[GetLevel2ItemsParameters](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.GetLevel2ItemsParameters.html)’-object with properties:
+This method takes the “[GetLevel2ItemsParameters](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.GetLevel2ItemsParameters.html)’-object with properties:
 
-* [**AggregatedMethod**](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.AggregateMethod.html) **-** enum, type of aggregation (“Price level” by default)
+* [**AggregatedMethod**](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.AggregateMethod.html) **-** enum, type of aggregation (“Price level” by default)
 * **CustomTickSize -** aggregation step (cannot be less than symbol tick size)
 * **LevelsCount -** number of levels required
 * **CalculateCumulative -** set ‘true’ if you need cumulative value for each price level.
@@ -29,12 +29,12 @@ This method takes the “[GetLevel2ItemsParameters](https://api.quantower.com/do
 public DepthOfMarketAggregatedCollections GetDepthOfMarketAggregatedCollections(GetDepthOfMarketParameters parameters)
 ```
 
-This method takes the “[GetDepthOfMarketParameters](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.GetDepthOfMarketParameters.html)”-object with properties:
+This method takes the “[GetDepthOfMarketParameters](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.GetDepthOfMarketParameters.html)”-object with properties:
 
-* [**GetLevel2ItemsParameters**](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.GetLevel2ItemsParameters.html) **-** the object described above.
+* [**GetLevel2ItemsParameters**](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.GetLevel2ItemsParameters.html) **-** the object described above.
 * **CalculateImbalancePercent -** set ‘true’ if you need ‘imbalance’ value for each price level.
 
-These methods return a ‘[DepthOfMarketAggregatedCollections](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.DepthOfMarketAggregatedCollections.html)’ object with two lists - ‘Asks’ and ‘Bids’. Each collection contains instances of [‘Level2Item’](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.Level2Item.html) class. There are our price levels.
+These methods return a ‘[DepthOfMarketAggregatedCollections](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.DepthOfMarketAggregatedCollections.html)’ object with two lists - ‘Asks’ and ‘Bids’. Each collection contains instances of [‘Level2Item’](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.Level2Item.html) class. There are our price levels.
 
 ## **Practice**
 

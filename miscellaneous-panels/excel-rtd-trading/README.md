@@ -4,13 +4,13 @@ description: How to export Real-Time data to Exel
 
 # Excel and RTD function
 
-Start from version 1.39 Quantower supports **Real-Time Data (RTD)** for sending data and other market information to Microsoft Excel®. This feature opens up many opportunities for creating custom displays and other ways to better manage your workflow.&#x20;
+Start from version 1.39 FlowTrade supports **Real-Time Data (RTD)** for sending data and other market information to Microsoft Excel®. This feature opens up many opportunities for creating custom displays and other ways to better manage your workflow.&#x20;
 
 
 
 RTD is a newer protocol that offers several advantages over DDE, including more flexibility and better performance and reliability.
 
-We prepared the spreadsheet that outlines the basic syntax of RTD formulas with details more complex formulas. Included is a collection of popular RTD formulas, which you can simply copy and paste into your own spreadsheet. [**Download the sample file**](https://updates.quantower.com/misc/RTD/rtd\_samples.xlsx)**.**
+We prepared the spreadsheet that outlines the basic syntax of RTD formulas with details more complex formulas. Included is a collection of popular RTD formulas, which you can simply copy and paste into your own spreadsheet. [**Download the sample file**](https://updates.flowtrade.com/misc/RTD/rtd\_samples.xlsx)**.**
 
 Here is the General Syntax for getting symbol info via RTD function:
 
@@ -18,10 +18,10 @@ Here is the General Syntax for getting symbol info via RTD function:
 
 {% embed url="https://www.youtube.com/watch?v=k1pbtSadX8I" %}
 
-## **How to activate RTD function in Quantower platform**
+## **How to activate RTD function in FlowTrade platform**
 
 {% hint style="warning" %}
-For the function to work properly, **Quantower platform and Excel must have the same version — 64 or 32 bit**
+For the function to work properly, **FlowTrade platform and Excel must have the same version — 64 or 32 bit**
 {% endhint %}
 
 Launch Excel and after open the Task Manager to check the version of Excel (32-bit or 64-bit). The platform should have the same version in order to work with RTD function correctly.
@@ -30,14 +30,14 @@ Launch Excel and after open the Task Manager to check the version of Excel (32-b
 
 Go to the [**General Settings**](../../general-settings/general-settings-1.md) of the platform, then to _section **Excel RTD**_ and tick off _**"Enable Microsoft Excel RTD"**_
 
-![Activation of RTD function in Quantower](../../.gitbook/assets/assets\_-ld6fsrvq3jgwjig6o7r\_-lme4wbmrbk0ai3rafld\_-lmeyazmdvqpbsftpr9b\_rtd.png)
+![Activation of RTD function in FlowTrade](../../.gitbook/assets/assets\_-ld6fsrvq3jgwjig6o7r\_-lme4wbmrbk0ai3rafld\_-lmeyazmdvqpbsftpr9b\_rtd.png)
 
 Also in the settings, there are two important settings:
 
 * **Custom RTD formula name** — depending on the language of your operating system, the name of the RTD function in Excel may be called differently. The original name of the function in the English version of Excel is RTD, but for the Russian version it's called "ДРВ".
 * **Custom argument separator** — the separator that participates in the formula. It depends on the localization of your operating system. Get to know [how to check argument separator in your system](./#how-to-check-argument-separator).
 
-## How to get the instrument data from Quantower?
+## How to get the instrument data from FlowTrade?
 
 ### 1. Getting data through copying a formula
 
@@ -52,7 +52,7 @@ The easiest way to get data to Excel is to copy the necessary data through the p
 ![Boadcasting real-time data to Excel](../../.gitbook/assets/rtd-quick-copying.gif)
 
 {% hint style="info" %}
-You may notice that the data is updated with some delay. This is a throttling interval that is set by default in Excel (2000 milliseconds). If you want to [increase the speed of updating data, read the instructions on how to do it](https://help.quantower.com/miscellaneous-panels/excel-rtd-trading/changing-rtd-throttle-interval-in-excel).
+You may notice that the data is updated with some delay. This is a throttling interval that is set by default in Excel (2000 milliseconds). If you want to [increase the speed of updating data, read the instructions on how to do it](https://kb.flowtrade.com/miscellaneous-panels/excel-rtd-trading/changing-rtd-throttle-interval-in-excel).
 {% endhint %}
 
 ### 2. Getting data through writing a formula
@@ -66,7 +66,7 @@ RTD formula uses the following basic structure:
 ```
 
 {% hint style="info" %}
-The second parameter is the name of the external server running the RTD Server. As the Quantower RTD Server always runs locally, you must omit a value for the second parameter or supply an empty string (“”). However, you must account for the parameter in the formula.
+The second parameter is the name of the external server running the RTD Server. As the FlowTrade RTD Server always runs locally, you must omit a value for the second parameter or supply an empty string (“”). However, you must account for the parameter in the formula.
 {% endhint %}
 
 ### Examples of the most popular RTD formulas with description&#x20;
@@ -97,7 +97,7 @@ Provides access to specific symbol information such as Description, **ExchangeNa
 
 | Options                      | Description                                                                                                                                         |
 | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **"TradingPlatform"**        | Quantower RTD server name. You can use it in all formulas.                                                                                          |
+| **"TradingPlatform"**        | FlowTrade RTD server name. You can use it in all formulas.                                                                                          |
 | **"GetSymbolInfo"**          | Name of method                                                                                                                                      |
 | **"BTCUSDT"**                | The ID of the symbol for which you want to get data. You can get it from the SymbolInfo panel.                                                      |
 | **"SymbolType"**             | Specifies the type of data you want to receive. For example: Name, Description.                                                                     |
@@ -150,7 +150,7 @@ Provides access to specific account information such as name, balance, NettingTy
 
 | _**Options**_                | Description                                                                                                                                         |
 | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **"TradingPlatform"**        | Quantower RTD server name. You can use it in all formulas.                                                                                          |
+| **"TradingPlatform"**        | FlowTrade RTD server name. You can use it in all formulas.                                                                                          |
 | **"GetMarketData"**          | Name of method                                                                                                                                      |
 | **"BTCUSDT"**                | The ID of the symbol for which you want to get data. You can get it from the SymbolInfo panel.                                                      |
 | **"Bid"**                    | Specifies the type of data you want to receive. For example: Bid, Ask, Last, Open, High                                                             |
@@ -176,7 +176,7 @@ _**Options**_
 
 | _**Options**_                | Description                                                                                                                                         |
 | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **"TradingPlatform"**        | Quantower RTD server name. You can use it in all formulas.                                                                                          |
+| **"TradingPlatform"**        | FlowTrade RTD server name. You can use it in all formulas.                                                                                          |
 | **"GetLevel2Data"**          | Name of method                                                                                                                                      |
 | **"BTCUSDT"**                | The ID of the symbol for which you want to get data. You can get it from the SymbolInfo panel.                                                      |
 | **"BidSize"**                | Указанный тип данных, которые вы хотите получать. Например: Bid, Ask, BidSize, AskSize.                                                             |
@@ -209,7 +209,7 @@ _**Options**_
 
 | _**Options**_                | _Описание_                                                                                                                                          |
 | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **"TradingPlatform"**        | Quantower RTD server name. You can use it in all formulas.                                                                                          |
+| **"TradingPlatform"**        | FlowTrade RTD server name. You can use it in all formulas.                                                                                          |
 | **"GetHistory"**             | Name of method                                                                                                                                      |
 | **"BTCUSDT"**                | The ID of the symbol for which you want to get data. You can get it from the SymbolInfo panel.                                                      |
 | **"1Day"**                   | Aggregation type: 1 day, 3 days, 5 minutes, etc. Available aggregates:Tick, Second, Minute, Hour, Day, Week, Month, Year.                           |

@@ -1,12 +1,12 @@
 # Localization
 
-Quantower offers users several languages, which greatly simplifies the process of working with the platform. In addition to English, there are 14 other languages available, which we are constantly updating and adding new ones. 
+FlowTrade offers users several languages, which greatly simplifies the process of working with the platform. In addition to English, there are 14 other languages available, which we are constantly updating and adding new ones. 
 
 In case of errors or inaccuracies in translation, any user can make changes to the text. To do this, write to us in the support or change the text in the file, which is located on the Github repository. The next time you upgrade the platform, all your changes will be automatically applied.
 
 ### How to make changes to the localization file on Github <a href="how-to-make-changes-to-the-localization-file-on-github" id="how-to-make-changes-to-the-localization-file-on-github"></a>
 
-* Go to the [**Quantower/Localization**](https://github.com/Quantower/Localization) section on Github, where the translation files for each panel are located. Here is the link [https://github.com/Quantower/Localization](https://github.com/Quantower/Localization)\
+* Go to the [**FlowTrade/Localization**](https://github.com/FlowTrade/Localization) section on Github, where the translation files for each panel are located. Here is the link [https://github.com/FlowTrade/Localization](https://github.com/FlowTrade/Localization)\
 
 * Register the account or log in to Github using your login and password. We can provide you with an account for making changes to localization files. To do this, write to us in support.\
 
@@ -14,7 +14,7 @@ In case of errors or inaccuracies in translation, any user can make changes to t
      **Common** — contains all common phrases for the whole terminal; \
      **Plug-ins** — includes folders with all the panels that contain translation files for specific panels.
 
-![There are two folders with localization files — Common and Plugins](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LD6FsRvQ3jgwJIg6O7r%2F-LTS-tElGUeTdX9kBPhF%2F-LTSHidwy1dSkZKCRH-V%2FQuantower%20localization.png?alt=media\&token=93298b44-40c2-4123-b8b8-68aca6d23077)
+![There are two folders with localization files — Common and Plugins](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LD6FsRvQ3jgwJIg6O7r%2F-LTS-tElGUeTdX9kBPhF%2F-LTSHidwy1dSkZKCRH-V%2FFlowTrade%20localization.png?alt=media\&token=93298b44-40c2-4123-b8b8-68aca6d23077)
 
 * Go to the Common folder and click on the language file you want to change. Click on the _**"Edit"**_ icon and change the required text only in the second line. The first line — **msgid** — is the key in the English version. The second line — **msgstr** — translation of the English key into the selected language.
 

@@ -1,7 +1,7 @@
 ---
 description: >-
   Here are descriptions of the most common errors when working with or
-  connecting to Binance Futures / Binance Spot in Quantower platform
+  connecting to Binance Futures / Binance Spot in FlowTrade platform
 ---
 
 # Errors with Binance connection
@@ -12,7 +12,8 @@ Here is the list of the most common errors and issues with Binance Futures /Spot
 * ****[**Error "API-key format invalid"**](errors-with-binance-connection.md#error-api-key-format-invalid)****
 * ****[**Error "Timestamp for this request was 1000ms ahead of the server's time"**](errors-with-binance-connection.md#error-timestamp-for-this-request-was-1000ms-ahead-of-the-servers-time)****
 * ****[**Error "Timestamp for this request is outside of the recvWindow"**](errors-with-binance-connection.md#error-timestamp-for-this-request-is-outside-of-the-recvwindow)****
-*    ****
+*
+    ****
 
     ****[**Error "Order's notional must be no smaller than 5.0 (unless you choose to reduce only)**](errors-with-binance-connection.md#error-orders-notional-must-be-no-smaller-than-5-0-unless-you-choose-to-reduce-only)****
 * ****[**Error "Margin is insufficient"**](errors-with-binance-connection.md#error-margin-is-insufficient)****
@@ -47,7 +48,7 @@ Check that your **API Key** and **API Secret** are correct.
 ### Error "Timestamp for this request was 1000ms ahead of the server's time"
 
 **"TimeStamp"** error occurs when the time on the Binance server does not match the time on the user's computer.
-
+FlowTrade
 ![Binance Futures error in Quantower - Timestamp for the request](<../../.gitbook/assets/image (89).png>)
 
 To solve it, please, go to **Windows Settings > Time & Language >** and click on **Sync Now** button**.**
@@ -85,7 +86,7 @@ Limit on the number of orders has been reached (usually this is a limit on a par
 This error occurs when **you don't have enough funds on the balance**. Check your wallet balance and make sure you have enough coins for the transaction.
 
 ### Error "This listenKey does not exist"
-
+FlowTrade
 This error occurs when a trader connects to Binance exchange with the same API Key on various platforms. Each platform must have its own API Key. **Generate a new API key for Quantower platform**.
 
 ### An error has occurred: "I can't close the position. Request was executed partially - the value of the open position is less than $5.&#x20;

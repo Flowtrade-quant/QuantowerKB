@@ -4,11 +4,11 @@ description: >-
   platform
 ---
 
-# Quantower Main Toolbar
+# FlowTrade Main Toolbar
 
 **Main Toolbar** — is the main starting point of the platform, used as a launcher and informer simultaneously.
 
-![Quantower Main toolbar](<../.gitbook/assets/image (73).png>)
+![FlowTrade Main toolbar](<../.gitbook/assets/image (73).png>)
 
 Main Toolbar technically is a panel, but behaves something differently: it can be dragged among your screens (if you have more than one) and it will be always stuck at the top of the screen. It adapts own width up to the screen width and it participates in the workspace, meaning, that other panels can be stuck to it.&#x20;
 
@@ -40,13 +40,13 @@ For optimal use of the space on the Main Toolbar, we have added the ability to d
 
 All of the panels are placed in the _“Sidebar”_ screen, which is popping out once you click the **Logo icon** on the toolbar. The Main Menu consists of panel icons, grouped by functionality. Actually, in this menu, you can find all panels.
 
-![Main menu in the Quantower platform](../.gitbook/assets/main-manu.png)
+![Main menu in the FlowTrade platform](../.gitbook/assets/main-manu.png)
 
 Each group in this menu can be collapsed in order to make the panels list cleaner. From this place, you can open any panel by left-clicking on its icon. Each group has its color to help you determine the functional assignment of each panel.
 
 The footer of the Main Menu contains several functions:
 
-* “**About**” link: opens a screen with information about terminal (version, rollback, updates checker etc.). If the system detects the new version of Quantower, the **“NEW VERSION”** button appears instead of this link;
+* “**About**” link: opens a screen with information about terminal (version, rollback, updates checker etc.). If the system detects the new version of FlowTrade, the **“NEW VERSION”** button appears instead of this link;
 * “**Exit**” button closes the application.
 
 {% hint style="info" %}
@@ -74,7 +74,7 @@ This feature is useful in case you would like to only analyze the market or whil
 ### Workspaces manager
 
 {% embed url="https://www.youtube.com/watch?v=A_2gJdeP-08&t=20s" %}
-Create and save your workspace in Quantower
+Create and save your workspace in FlowTrade
 {% endembed %}
 
 **Workspaces manager** allows you to see, create, edit and delete your working environments as well as lock their modification. It is represented with the special icon, that opens the list of available Workspaces once being clicked.
@@ -113,7 +113,8 @@ You can remove a connection from Favorites by right-clicking on it and selecting
 
 Most actions during the platform use generate various notifications. There can be system notifications (some connection problems or errors) and Deal tickets.&#x20;
 
-The **Deal tickets** — are the notifications about the trading operations. Each time you create an order or opening a new position — we will create a deal ticket for this.&#x20;(you can [disable deat tickets in general settings](general-settings-1.md#confirmations))
+The **Deal tickets** — are the notifications about the trading operations. Each time you create an order or opening a new position — we will create a deal ticket for this.&#x20;
+(you can [disable deat tickets in general settings](general-settings-1.md#confirmations))
 
 While some trading actions may be done in one click at the first sight, they usually consist of several related operations, each of them will be displayed via the Deal tickets. That is why you can see much more items in Notifications center than you did actions.&#x20;
 

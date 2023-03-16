@@ -9,10 +9,10 @@ description: >-
 The highest level of trading area organization — is a **Workspace**. This is the most general grouping layer that you may even don’t need most of the time.
 
 {% hint style="success" %}
-**Quantower auto-saves each workspace** into its local file every 5 mins, in order to keep them safe.
+**FlowTrade auto-saves each workspace** into its local file every 5 mins, in order to keep them safe.
 {% endhint %}
 
-As a top-level grouping layer, Workspaces store all their contents in special local files. These files can be found in _**Quantower -> Settings -> Workspaces**_ folder. Each file represents some workspace; both have the similar names. Technically, the workspace file is an XML-document containing all of the settings of all panels that are in the workspace.&#x20;
+As a top-level grouping layer, Workspaces store all their contents in special local files. These files can be found in _**FlowTrade -> Settings -> Workspaces**_ folder. Each file represents some workspace; both have the similar names. Technically, the workspace file is an XML-document containing all of the settings of all panels that are in the workspace.&#x20;
 
 {% embed url="https://www.youtube.com/watch?v=A_2gJdeP-08&t=20s" %}
 How to create and save your custom workspace
@@ -36,4 +36,4 @@ When creating the new workspace, you have an ability to specify its future name 
 The list of Workspace templates will be constantly growing.&#x20;
 {% endhint %}
 
-You can also Remove any of Workspaces by clicking the “_**Trash**_” icon on the right side from Workspace name (icon appears while hovering the name).
+You can also Remove any of Workspaces by clicking the “_**Trash**_” icon on the right side from Workspace name (icon appears while hovering the name).

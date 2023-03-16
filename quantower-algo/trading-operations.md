@@ -1,16 +1,16 @@
 ---
 description: >-
   Placing a different type of orders, modifying and canceling them using
-  Quantower API
+  FlowTrade API
 ---
 
 # Trading operations
 
-A key part of each strategy is a trading algorithm it implements. In most cases it requires possibilities of placing a different type of orders, modifying and canceling them. In this topic, we will show you how to get access to this operations via [**Quantower API**](https://api.quantower.com/).
+A key part of each strategy is a trading algorithm it implements. In most cases it requires possibilities of placing a different type of orders, modifying and canceling them. In this topic, we will show you how to get access to this operations via [**FlowTrade API**](https://api.flowtrade.com/).
 
 ## Placing orders
 
-As we wrote in the previous topic, [**Core**](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.Core.html) class is the main entry point for all major functions and placing orders (as well as all other trading operations) are not the exception. The most flexible way of placing orders is using the [**PlaceOrder**](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.Core.html#TradingPlatform\_BusinessLayer\_Core\_PlaceOrder\_TradingPlatform\_BusinessLayer\_PlaceOrderRequestParameters\_) method, that accepts [**PlaceOrderRequestParameters**](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.PlaceOrderRequestParameters.html) object as input parameter. This object provides you with more than 15 parameters and using them you can customize your order request according to your needs. It is not necessary to fill all, usually, you will need only main, such as:
+As we wrote in the previous topic, [**Core**](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.Core.html) class is the main entry point for all major functions and placing orders (as well as all other trading operations) are not the exception. The most flexible way of placing orders is using the [**PlaceOrder**](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.Core.html#TradingPlatform\_BusinessLayer\_Core\_PlaceOrder\_TradingPlatform\_BusinessLayer\_PlaceOrderRequestParameters\_) method, that accepts [**PlaceOrderRequestParameters**](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.PlaceOrderRequestParameters.html) object as input parameter. This object provides you with more than 15 parameters and using them you can customize your order request according to your needs. It is not necessary to fill all, usually, you will need only main, such as:
 
 | Parameter    | Description                                                                                                                                                                                 |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -42,7 +42,7 @@ Core.Instance.PlaceOrder(new PlaceOrderRequestParameters()
 });
 ```
 
-Another option to send order request is using the overloaded [**PlaceOrder**](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.Core.html#TradingPlatform\_BusinessLayer\_Core\_PlaceOrder\_TradingPlatform\_BusinessLayer\_Symbol\_TradingPlatform\_BusinessLayer\_Account\_TradingPlatform\_BusinessLayer\_Side\_TradingPlatform\_BusinessLayer\_TimeInForce\_System\_Double\_System\_Double\_System\_Double\_System\_Double\_) method, which accepts only basic order parameters. The shortest form will send Short or Long 1 lot position using a specified symbol and account:
+Another option to send order request is using the overloaded [**PlaceOrder**](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.Core.html#TradingPlatform\_BusinessLayer\_Core\_PlaceOrder\_TradingPlatform\_BusinessLayer\_Symbol\_TradingPlatform\_BusinessLayer\_Account\_TradingPlatform\_BusinessLayer\_Side\_TradingPlatform\_BusinessLayer\_TimeInForce\_System\_Double\_System\_Double\_System\_Double\_System\_Double\_) method, which accepts only basic order parameters. The shortest form will send Short or Long 1 lot position using a specified symbol and account:
 
 ```csharp
 Core.Instance.PlaceOrder(this.symbol, this.account, Side.Buy);
@@ -62,7 +62,7 @@ Core.Instance.PlaceOrder(this.symbol, this.account, Side.Buy, triggerPrice: this
 
 ## Modifying orders
 
-Once you created your order you can modify its parameters - use [ModifyOrder](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.Core.html#TradingPlatform\_BusinessLayer\_Core\_ModifyOrder\_TradingPlatform\_BusinessLayer\_Order\_TradingPlatform\_BusinessLayer\_TimeInForce\_System\_Double\_System\_Double\_System\_Double\_System\_Double\_) function in Core class for this. You can specify only parameter you want to change, for example, if you want to change Quantity of order:
+Once you created your order you can modify its parameters - use [ModifyOrder](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.Core.html#TradingPlatform\_BusinessLayer\_Core\_ModifyOrder\_TradingPlatform\_BusinessLayer\_Order\_TradingPlatform\_BusinessLayer\_TimeInForce\_System\_Double\_System\_Double\_System\_Double\_System\_Double\_) function in Core class for this. You can specify only parameter you want to change, for example, if you want to change Quantity of order:
 
 ```csharp
 Core.Instance.ModifyOrder(orderToModify, quantity: 5);
@@ -82,7 +82,7 @@ Core.Instance.ModifyOrder(orderToModify, quantity: 5, timeInForce: TimeInForce.G
 
 ## Cancelling orders
 
-As expected there is a function for canceling Order - [**CancelOrder**](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.Core.html#TradingPlatform\_BusinessLayer\_Core\_CancelOrder\_TradingPlatform\_BusinessLayer\_Order\_). All you need to specify is Order object:
+As expected there is a function for canceling Order - [**CancelOrder**](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.Core.html#TradingPlatform\_BusinessLayer\_Core\_CancelOrder\_TradingPlatform\_BusinessLayer\_Order\_). All you need to specify is Order object:
 
 ```csharp
 Core.Instance.CancelOrder(orderToCancel);
@@ -96,7 +96,7 @@ orderToCancel.Cancel();
 
 ## Closing positions
 
-The closing of positions is very similar to canceling orders. Use [**ClosePosition**](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.Core.html#TradingPlatform\_BusinessLayer\_Core\_ClosePosition\_TradingPlatform\_BusinessLayer\_Position\_System\_Double\_) method from [**Core**](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.Core.html):
+The closing of positions is very similar to canceling orders. Use [**ClosePosition**](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.Core.html#TradingPlatform\_BusinessLayer\_Core\_ClosePosition\_TradingPlatform\_BusinessLayer\_Position\_System\_Double\_) method from [**Core**](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.Core.html):
 
 ```csharp
 Core.Instance.ClosePosition(positionToClose);

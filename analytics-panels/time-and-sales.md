@@ -13,10 +13,10 @@ description: >-
 
 Time & Sales panel keeps a running record of trades for selected instruments displayed in chronological order. Each new entry is added to the top of the list, causing the panel screen to auto-scroll downward.
 
-![Time & Sales panel in Quantower shows all executed trades](../.gitbook/assets/time-and-sales.gif)
+![Time & Sales panel in FlowTrade shows all executed trades](../.gitbook/assets/time-and-sales.gif)
 
 {% embed url="https://www.youtube.com/watch?v=-R_AXBMlNpM" %}
-Aggregated Time & Sales in Quantower also known as Reconstructed Tape
+Aggregated Time & Sales in FlowTrade also known as Reconstructed Tape
 {% endembed %}
 
 ### Real-time and Historical modes
@@ -27,9 +27,9 @@ Real-time mode shows all the trades that are currently executed. The historical 
 
 ### General settings
 
-The basic settings in Time & Sales are similar to the parameters of most panels in Quantower — full flexibility in color settings, fonts, columns visibility, data position relative to the column, etc.&#x20;
+The basic settings in Time & Sales are similar to the parameters of most panels in FlowTrade — full flexibility in color settings, fonts, columns visibility, data position relative to the column, etc.&#x20;
 
-<figure><img src="../.gitbook/assets/image (59).png" alt=""><figcaption><p>Time &#x26; Sales settings in Quantower</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (59).png" alt=""><figcaption><p>Time &#x26; Sales settings in FlowTrade</p></figcaption></figure>
 
 But some settings are unique for this panel:
 
@@ -66,7 +66,7 @@ Time & Sales panel allows exporting executed trades to either _CSV_ or _HTML_ fi
 
 ### Setup Actions - Filters & Actions
 
-We wrote about this functionality in the [**Advanced table filters and actions**](https://help.quantower.com/getting-started/table-management#advanced-table-filter) section, which explains in details the process of adding filters and creating different notifications. Here we briefly describe the filtering process in the table and the settings of various actions.
+We wrote about this functionality in the [**Advanced table filters and actions**](https://kb.flowtrade.com/getting-started/table-management#advanced-table-filter) section, which explains in details the process of adding filters and creating different notifications. Here we briefly describe the filtering process in the table and the settings of various actions.
 
 #### Filtering in the Time & Sales table
 

@@ -37,7 +37,7 @@ By clicking on the "**Gear"** icon, additional settings will open.&#x20;
 
 <mark style="color:blue;background-color:blue;">**1. Switch between different VWAPs**</mark> and set the settings for each of them.
 
-Quantower platform provides 5 separate VWAPs, that can be placed simultaneously on a single chart.
+FlowTrade platform provides 5 separate VWAPs, that can be placed simultaneously on a single chart.
 
 <mark style="color:blue;background-color:blue;">**2.**</mark> <mark style="background-color:blue;">Set the</mark> <mark style="color:blue;background-color:blue;">**Main Settings**</mark> for the VWAP line:
 
@@ -75,7 +75,7 @@ VWAP has numerous application in the trading world. It is helpful for both insti
 
 For intraday trading we have found that it is possible to trade the return of the price to VWAP on small timeframes. For example, let's consider ES (e-mini S\&P500) futures on 5-minute chart with an hourly VWAP.&#x20;
 
-![Trading with VWAP in Quantower platform](../../.gitbook/assets/vwap-trading.png)
+![Trading with VWAP in FlowTrade platform](../../.gitbook/assets/vwap-trading.png)
 
 An important point in this tactic is that the distance between the VWAP value and the closing price should be significant.
 

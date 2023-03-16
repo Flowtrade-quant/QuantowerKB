@@ -1,6 +1,6 @@
 ---
 description: >-
-  Here you will learn about the basic chart settings in Quantower. To access
+  Here you will learn about the basic chart settings in FlowTrade. To access
   this menu, right-click on the chart and select 'Settings' in the menu.
 ---
 

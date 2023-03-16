@@ -12,7 +12,8 @@
 
 ![](<../.gitbook/assets/image (164).png>)
 
-The easiest method is starting troubleshooting with simply **disabling Game Bar**. This could be helpful to remove the key combination and use it for other purposes.&#x20;Now, you can take these steps:
+The easiest method is starting troubleshooting with simply **disabling Game Bar**. This could be helpful to remove the key combination and use it for other purposes.
+&#x20;Now, you can take these steps:
 
 * Press the **Win + I** combination key to open Windows Settings
 * Go to **Gaming > Gaming bar**.
@@ -25,7 +26,7 @@ More details you can find here [https://www.minitool.com/news/ms-gaming-overlay-
 ## Error 'Application is already running'
 
 ![](<../.gitbook/assets/image (161).png>)
-
+FlowTradeFlowTradeFlowTrade
 * This message is displayed if you try running multiple Quantowers in parallel on the same computer or you have closed Quantower a few seconds ago and it did not finish closing yet. In 20 seconds or sooner Quantower can be started again.
 * If even after a few minutes the platform fails to start, go to the **Task Manager**. Press **Ctrl+Shift+Esc** to open the Task Manager with a keyboard shortcut or right-click the Windows taskbar and select “Task Manager.”\
   Find the process with the name **"Starter"**, select it and click on **End task**.
@@ -53,14 +54,14 @@ Some times Kaspersky delete our files.&#x20;
 ![](<../.gitbook/assets/image (223).png>)
 
 ## An error occurred during platform initialization: Fail to load dll signatures
-
+FlowTradeFlowTrade
 ![Quantower error "Fail to load dll signatures"](../.gitbook/assets/quantower-error.png)
 
 This error can occur for several reasons:
 
 * There is **no internet connection or a weak connection**. Please check that the connection is stable with your browser.
 * The platform has **not fully installed the files** to work correctly. Please reinstall the platform.
-
+FlowTrade
 ![Full list of folders and files for Quantower](<../.gitbook/assets/image (216).png>)
 
 ## Trendlines are moving on tick charts. How to resolve it?

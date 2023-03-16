@@ -6,7 +6,7 @@ description: Instantiate a custom indicator with input parameters.
 
 ## General
 
-Quantower API provides a huge collection of built-in indicators. But sometimes we need to use our own indicator that we developed before or downloaded from the Internet. 
+FlowTrade API provides a huge collection of built-in indicators. But sometimes we need to use our own indicator that we developed before or downloaded from the Internet. 
 
 In this article, we will create an instance of the custom indicator and pass the input parameters in different ways.
 
@@ -113,7 +113,7 @@ class BestIndicator : Indicator
 
 ## **Use indicator settings collection (Advance)**
 
-This method can be used if you are unable to add the required constructor. For example, you imported a dll-library with an indicator. Each indicator has a "Settings" property that contains all input parameters converted into objects of “[SettignItem](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.SettingItemAction.html)” type.
+This method can be used if you are unable to add the required constructor. For example, you imported a dll-library with an indicator. Each indicator has a "Settings" property that contains all input parameters converted into objects of “[SettignItem](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.SettingItemAction.html)” type.
 
 To modify any of the parameters, you need to invoke the **"UpdateItemValue"** method and pass the name of the required parameter and the new value.
 

@@ -1,13 +1,13 @@
 ---
 description: >-
   Historical Symbols panel is designed to import historical data from
-  third-party data providers to Quantower with performing a subsequent technical
+  third-party data providers to FlowTrade with performing a subsequent technical
   analysis or backtesting.
 ---
 
 # Historical Symbols
 
-If you need to import trading quotes to Quantower from a third-party data provider for performing a backtest or technical analysis, Historical Symbols will be indispensable in this case. For example, you can download any price data from Quandl, IQFeed, NASDAQ or Yahoo and test your trading idea on them.
+If you need to import trading quotes to FlowTrade from a third-party data provider for performing a backtest or technical analysis, Historical Symbols will be indispensable in this case. For example, you can download any price data from Quandl, IQFeed, NASDAQ or Yahoo and test your trading idea on them.
 
 ![General view of Historical Symbols panel](../.gitbook/assets/historical-symbols.png)
 
@@ -15,7 +15,7 @@ Let's take a brief look at how it works.
 
 ### How to add a new historical symbol?
 
-* First, you need to [configure parameters](https://help.quantower.com/portfolio-panels/historical-symbols#symbol-settings) of the symbol that you want to load. If you want to perform backtesting, it is important to correctly set all the parameters - asset class, tick size, etc. You can borrow parameters from an existing symbol.
+* First, you need to [configure parameters](https://kb.flowtrade.com/portfolio-panels/historical-symbols#symbol-settings) of the symbol that you want to load. If you want to perform backtesting, it is important to correctly set all the parameters - asset class, tick size, etc. You can borrow parameters from an existing symbol.
 * Import historical quotes from a .csv file or from an existing symbol. For example, download the trading history of Crude Oil from Quandl.
 
 ![Import trading history from file](../.gitbook/assets/historical-symbol-settings-import-from-file.gif)
@@ -48,7 +48,7 @@ To delete a trading symbol, you need to select the required symbol and click on 
 
 ### Symbol settings
 
-To correctly perform the backtesting, you need to configure parameters of the symbol that you want to load. If the requiring history refers to the existing trade symbol in Quantower, then the settings can be simply borrowed by pressing _**“Get from real symbol”**_ button.
+To correctly perform the backtesting, you need to configure parameters of the symbol that you want to load. If the requiring history refers to the existing trade symbol in FlowTrade, then the settings can be simply borrowed by pressing _**“Get from real symbol”**_ button.
 
 ![Symbol settings](../.gitbook/assets/historical-symbol-settings-first-step.gif)
 

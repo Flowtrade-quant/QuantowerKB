@@ -1,5 +1,5 @@
 ---
-description: Run your strategies in Quantower like a pro
+description: Run your strategies in FlowTrade like a pro
 ---
 
 # Strategies manager

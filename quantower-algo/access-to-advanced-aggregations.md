@@ -8,9 +8,9 @@ description: Using the available aggregation types in your code
 
 As we know, chart aggregation is a type of displaying aggregated values. These values are price, volume and time. The main idea of each aggregation is to help traders analyze the state of the market in history and in real time.
 
-At this moment, Quantower API supports **9** **aggregation types**. All of them you can use in your scripts easily. But before we continue, please read the article [how to download history](https://help.quantower.com/quantower-algo/downloading-history) by using Quantower API.
+At this moment, FlowTrade API supports **9** **aggregation types**. All of them you can use in your scripts easily. But before we continue, please read the article [how to download history](https://kb.flowtrade.com/FlowTrade-algo/downloading-history) by using FlowTrade API.
 
-To download aggregated history we need use [**GetHistory** ](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.Symbol.html#TradingPlatform\_BusinessLayer\_Symbol\_GetHistory\_TradingPlatform\_BusinessLayer\_HistoryRequestParameters\_)method which takes instanse of [HistoryRequestParameters ](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.HistoryRequestParameters.html)class as input parameter. This class contains the necessary properties such as FromTime, ToTime, HistoryType, etc. with which we can flexibly customize our request. But today we are interested in the [**Aggregation** ](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.HistoryRequestParameters.html#TradingPlatform\_BusinessLayer\_HistoryRequestParameters\_Aggregation)property. This property contains instance of [HistoryAggregation ](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.HistoryAggregation.html)class which is base class for all available aggregation types. All we need to get the aggregated history is to set to this property instance of required aggregation type.
+To download aggregated history we need use [**GetHistory** ](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.Symbol.html#TradingPlatform\_BusinessLayer\_Symbol\_GetHistory\_TradingPlatform\_BusinessLayer\_HistoryRequestParameters\_)method which takes instanse of [HistoryRequestParameters ](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.HistoryRequestParameters.html)class as input parameter. This class contains the necessary properties such as FromTime, ToTime, HistoryType, etc. with which we can flexibly customize our request. But today we are interested in the [**Aggregation** ](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.HistoryRequestParameters.html#TradingPlatform\_BusinessLayer\_HistoryRequestParameters\_Aggregation)property. This property contains instance of [HistoryAggregation ](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.HistoryAggregation.html)class which is base class for all available aggregation types. All we need to get the aggregated history is to set to this property instance of required aggregation type.
 
 Listed below are all available aggregation classes with examples of history requests.
 
@@ -18,7 +18,7 @@ Listed below are all available aggregation classes with examples of history requ
 
 ### Tick aggregation
 
-The [**HistoryAggregationTick** ](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.HistoryAggregationTick.html)class is used to buid simple Tick **** chart.
+The [**HistoryAggregationTick** ](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.HistoryAggregationTick.html)class is used to buid simple Tick **** chart.
 
 ```csharp
 new HistoryAggregationTick(int ticksCount);
@@ -40,13 +40,13 @@ var tickhistoricalData = this.Symbol.GetHistory(new HistoryRequestParameters()
 
 ### Time aggregation
 
-The [**HistoryAggregationTime** ](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.HistoryAggregationTime.html)class is used to build the **** [Time ](https://help.quantower.com/analytics-panels/chart/chart-types/time-aggregation)chart.
+The [**HistoryAggregationTime** ](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.HistoryAggregationTime.html)class is used to build the **** [Time ](https://kb.flowtrade.com/analytics-panels/chart/chart-types/time-aggregation)chart.
 
 ```csharp
 new HistoryAggregationTime(Period period);
 ```
 
-* **period** - period of time (8s, 30min, 4h etc). Instance of [Period ](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.Period.html)structure.
+* **period** - period of time (8s, 30min, 4h etc). Instance of [Period ](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.Period.html)structure.
 
 ```csharp
 var timeBarHistoricalData = this.Symbol.GetHistory(new HistoryRequestParameters()
@@ -62,7 +62,7 @@ var timeBarHistoricalData = this.Symbol.GetHistory(new HistoryRequestParameters(
 
 ### Heiken-Ashi aggregation
 
-The [**HistoryAggregationHeikenAshi** ](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.HistoryAggregationHeikenAshi.html)class is used to build the **** [Heiken-Ashi](https://help.quantower.com/analytics-panels/chart/chart-types/heiken-ashi) **** chart.
+The [**HistoryAggregationHeikenAshi** ](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.HistoryAggregationHeikenAshi.html)class is used to build the **** [Heiken-Ashi](https://kb.flowtrade.com/analytics-panels/chart/chart-types/heiken-ashi) **** chart.
 
 ```csharp
 new HistoryAggregationHeikenAshi(HeikenAshiSource source, int value);
@@ -84,7 +84,7 @@ var heikenAshiHistoricalData = this.Symbol.GetHistory(new HistoryRequestParamete
 
 ### Range Bars aggregation
 
-The [**HistoryAggregationRangeBars** ](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.HistoryAggregationRangeBars.html)class is used to build the **** [Range Bars](https://help.quantower.com/analytics-panels/chart/chart-types/range-bars) **** chart.
+The [**HistoryAggregationRangeBars** ](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.HistoryAggregationRangeBars.html)class is used to build the **** [Range Bars](https://kb.flowtrade.com/analytics-panels/chart/chart-types/range-bars) **** chart.
 
 ```csharp
 new HistoryAggregationRangeBars(int rangeBars);
@@ -105,13 +105,13 @@ var rangeBarHistoricalData = this.Symbol.GetHistory(new HistoryRequestParameters
 
 ### Renko aggregation
 
-The [**HistoryAggregationRenko** ](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.HistoryAggregationRenko.html)class is used to build the [Renko ](https://help.quantower.com/analytics-panels/chart/chart-types/renko)chart.
+The [**HistoryAggregationRenko** ](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.HistoryAggregationRenko.html)class is used to build the [Renko ](https://kb.flowtrade.com/analytics-panels/chart/chart-types/renko)chart.
 
 ```csharp
 new HistoryAggregationRenko(Period period, int brickSize, RenkoStyle renkoStyle, int extension = 100, int inversion = 100, bool showWicks = false, bool buildCurrentBar = true)
 ```
 
-* **period** - base period of time. Instance of [Period ](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.Period.html)structure.
+* **period** - base period of time. Instance of [Period ](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.Period.html)structure.
 * **brickSize** - required size of renko brick
 * **renkoStyle** - enum, calculation methods (Classic, HighLow, AdvancedClassic, AdvancedHighLow)
 
@@ -128,13 +128,13 @@ var renkoHistoricalData = this.Symbol.GetHistory(new HistoryRequestParameters()
 
 ### Line break aggregation
 
-The [**HistoryAggregationLineBreak**](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.HistoryAggregationLineBreak.html) **** class is used to build the **** [Line break](https://help.quantower.com/analytics-panels/chart/chart-types/line-break) chart.
+The [**HistoryAggregationLineBreak**](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.HistoryAggregationLineBreak.html) **** class is used to build the **** [Line break](https://kb.flowtrade.com/analytics-panels/chart/chart-types/line-break) chart.
 
 ```csharp
 new HistoryAggregationLineBreak(Period period, int lineBreak); 
 ```
 
-* **period** - base period of time. Instance of [Period ](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.Period.html)structure.
+* **period** - base period of time. Instance of [Period ](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.Period.html)structure.
 * **lineBreak** - line break value.
 
 ```csharp
@@ -150,13 +150,13 @@ var lineBreakHistoricalData = this.Symbol.GetHistory(new HistoryRequestParameter
 
 ### Kagi aggregation
 
-The [**HistoryAggregationKagi** ](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.HistoryAggregationKagi.html)class is used to build the [Kagi](https://help.quantower.com/analytics-panels/chart/chart-types/kagi) chart.
+The [**HistoryAggregationKagi** ](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.HistoryAggregationKagi.html)class is used to build the [Kagi](https://kb.flowtrade.com/analytics-panels/chart/chart-types/kagi) chart.
 
 ```csharp
 new HistoryAggregationKagi(Period period, int reversal);
 ```
 
-* **period** -  base period of time. Instance of [Period ](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.Period.html)structure.
+* **period** -  base period of time. Instance of [Period ](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.Period.html)structure.
 * **reversal** - the amount of price movement that required for the Kagi line to reverse direction.
 
 ```csharp
@@ -172,13 +172,13 @@ var kagiHistoricalData = this.Symbol.GetHistory(new HistoryRequestParameters()
 
 ### Points & Figures aggregation
 
-The [**HistoryAggregationPointsAndFigures**](https://help.quantower.com/analytics-panels/chart/chart-types/points-and-figures) **** class is used to build the [Points & Figures](https://help.quantower.com/analytics-panels/chart/chart-types/points-and-figures) chart.
+The [**HistoryAggregationPointsAndFigures**](https://kb.flowtrade.com/analytics-panels/chart/chart-types/points-and-figures) **** class is used to build the [Points & Figures](https://kb.flowtrade.com/analytics-panels/chart/chart-types/points-and-figures) chart.
 
 ```csharp
 new HistoryAggregationPointsAndFigures(Period period, int boxSize, int reversal, PointsAndFiguresStyle style);
 ```
 
-* **period** - base period of time. Instance of [Period ](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.Period.html)structure.
+* **period** - base period of time. Instance of [Period ](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.Period.html)structure.
 * **boxSize** -  price range (the number of ticks) for X-Columns or O-Columns
 * **reversal** - a parameter that indicates the number of Box Sizes that the price should go in the opposite direction to begin a new column.
 * **style** - enum, calculation methods (Classic, HighLow)
@@ -196,7 +196,7 @@ var pointFiguresHistoricalData = this.Symbol.GetHistory(new HistoryRequestParame
 
 ### Volume Bars aggregation&#x20;
 
-The **HistoryAggregationVolume** class is used to build the [Volume bars ](https://help.quantower.com/analytics-panels/chart/chart-types/volume-bars)chart.
+The **HistoryAggregationVolume** class is used to build the [Volume bars ](https://kb.flowtrade.com/analytics-panels/chart/chart-types/volume-bars)chart.
 
 ```csharp
 new HistoryAggregationVolume(int volumeValue);
@@ -270,7 +270,7 @@ private Indicator slowSmaIndicator;
 In this section, we will carry out the first, second and fourth points.&#x20;
 
 {% hint style="info" %}
-Pay attention to line **24**. Here we create instance of [**HistoryAggregationRenko**](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.HistoryAggregationRenko.html) class and pass required parameters.
+Pay attention to line **24**. Here we create instance of [**HistoryAggregationRenko**](https://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.HistoryAggregationRenko.html) class and pass required parameters.
 
 Pay attention **** to line **30**. Here we subscribe '**NewHistoryItem**' event. Another words, our 'RenkoHistoricalData\_NewHistoryItem' handler will trigger on each new brick item.
 {% endhint %}

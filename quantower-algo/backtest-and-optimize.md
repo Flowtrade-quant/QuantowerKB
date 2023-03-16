@@ -1,6 +1,6 @@
 # Backtest & Optimize
 
-Previously a part of the "Strategy runner" panel's functionality, strategies backtesting is integral to any algo-trading development process. With the latest Quantower update, we separated this feature into an individual panel called the "Backtest & Optimize." Let's learn more about this tool and its new features and enhancements.
+Previously a part of the "Strategy runner" panel's functionality, strategies backtesting is integral to any algo-trading development process. With the latest FlowTrade update, we separated this feature into an individual panel called the "Backtest & Optimize." Let's learn more about this tool and its new features and enhancements.
 
 ## Start & general view
 
@@ -65,7 +65,7 @@ Please note. The selected strategy will use one of the specified backtesting env
 
 Being in a Backtesting mode, just before launching the new task, you can select the <mark style="color:blue;">**processing mode**</mark> (the way how backtester will replay history) from the following list:
 
-* Speed control. Allows you to interactively adapt the history replay speed or pause during the task processing. You can also visualize the history replay in one of the Quantower panels and see your strategy behavior over time.
+* Speed control. Allows you to interactively adapt the history replay speed or pause during the task processing. You can also visualize the history replay in one of the FlowTrade panels and see your strategy behavior over time.
 * Step by step. Backterster will process history playback tick by tick based on the used symbol’s timeframe settings.
 * Background. In this mode, the backtester will process your task with the highest possible speed, and you will only see the results after it ends.
 

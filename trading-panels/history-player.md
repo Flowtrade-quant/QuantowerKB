@@ -13,7 +13,7 @@ description: >-
 
 Testing of trading strategies is one of the most important and necessary steps for successful trading. If you are an experienced algotrader, then the automatic testing method is ideal and you can use our Extension for Visual Studio. But unfortunately, many traders don't know the programming language, which makes testing their strategies difficult.
 
-Therefore Quantower provides the **Market Replay panel** for simple manual backtesting of any trading strategy.
+Therefore FlowTrade provides the **Market Replay panel** for simple manual backtesting of any trading strategy.
 
 ![Testing process with Market Replay panel](../.gitbook/assets/history-player.png)
 
@@ -31,7 +31,7 @@ How to backtest a trading strategy with Market Replay panel
 * Set the execution type  — Last or Bid/Ask/Last
 * Click on the "Start" button to start testing
 
-In our blog, we showed in detail the process of [manual backtesting of trading strategies using the Market Replay panel](https://www.quantower.com/blog/software-for-manual-backtesting-a-brief-review-of-history-player-plugin).
+In our blog, we showed in detail the process of [manual backtesting of trading strategies using the Market Replay panel](https://www.flowtrade.com/blog/software-for-manual-backtesting-a-brief-review-of-history-player-plugin).
 
 ![Launch Market Replay panel](../.gitbook/assets/market-replay-start.png)
 

@@ -1,6 +1,6 @@
 ---
 description: >-
-  Quantower provides a Trading simulator, the excellent trading tool that allows
+  FlowTrade provides a Trading simulator, the excellent trading tool that allows
   emulating the execution of orders under any connection, including those that
   do not allow trading.
 ---
@@ -56,4 +56,4 @@ Trading Simulator creates separate trading accounts for each base currency of th
 
 ![General settings for symbols in Trading Simulator](<../.gitbook/assets/image (349) (2).png>)
 
-* **Netting type** — methods by which to summarize existing and new positions. There are 3 types of nettings: **One Position**, **Multiple Per Side**, **Multiple Positions**. Examples of using each method you can find in the description of the [History Player panel settings](https://help.quantower.com/trading-panels/history-player#general-and-instruments-settings).
+* **Netting type** — methods by which to summarize existing and new positions. There are 3 types of nettings: **One Position**, **Multiple Per Side**, **Multiple Positions**. Examples of using each method you can find in the description of the [History Player panel settings](https://kb.flowtrade.com/trading-panels/history-player#general-and-instruments-settings).

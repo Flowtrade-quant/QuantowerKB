@@ -1,6 +1,6 @@
 ---
 description: >-
-  Use the results of 50+ built-in indicators of Quantower in your strategies and
+  Use the results of 50+ built-in indicators of FlowTrade in your strategies and
   indicators
 ---
 
@@ -8,7 +8,7 @@ description: >-
 
 ## General
 
-During development of your own indicators or strategy, you may require using some standard indicators, for example Moving Averages. You don't need to write any code for this, as Quantower trading platform provides you a wide set of predefined indicators. At the moment there are about 50 built-in indicators, among them:&#x20;
+During development of your own indicators or strategy, you may require using some standard indicators, for example Moving Averages. You don't need to write any code for this, as FlowTrade trading platform provides you a wide set of predefined indicators. At the moment there are about 50 built-in indicators, among them:&#x20;
 
 * EMA
 * ADX
@@ -76,7 +76,7 @@ protected override void OnInit()
 }
 ```
 
-Everything is ready to use this indicator in our calculations. After receiving new quotes it will be calculated automatically. You can access its values via [**GetValue** ](http://api.quantower.com/docs/TradingPlatform.BusinessLayer.Indicator.html#TradingPlatform\_BusinessLayer\_Indicator\_GetValue\_System\_Int32\_System\_Int32\_TradingPlatform\_BusinessLayer\_SeekOriginHistory\_)method:
+Everything is ready to use this indicator in our calculations. After receiving new quotes it will be calculated automatically. You can access its values via [**GetValue** ](http://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.Indicator.html#TradingPlatform\_BusinessLayer\_Indicator\_GetValue\_System\_Int32\_System\_Int32\_TradingPlatform\_BusinessLayer\_SeekOriginHistory\_)method:
 
 ```csharp
 /// <summary>
@@ -92,7 +92,7 @@ protected override void OnUpdate(UpdateArgs args)
 }
 ```
 
-In case you need to access value for previous bars or value from other indicators line you can use the offset and a **lineIndex** parameter of a [**GetValue**](http://api.quantower.com/docs/TradingPlatform.BusinessLayer.Indicator.html#TradingPlatform\_BusinessLayer\_Indicator\_GetValue\_System\_Int32\_System\_Int32\_TradingPlatform\_BusinessLayer\_SeekOriginHistory\_) **** method:
+In case you need to access value for previous bars or value from other indicators line you can use the offset and a **lineIndex** parameter of a [**GetValue**](http://api.flowtrade.com/docs/TradingPlatform.BusinessLayer.Indicator.html#TradingPlatform\_BusinessLayer\_Indicator\_GetValue\_System\_Int32\_System\_Int32\_TradingPlatform\_BusinessLayer\_SeekOriginHistory\_) **** method:
 
 ```csharp
 /// <summary>
@@ -176,4 +176,4 @@ And a result of this indicator on the chart:
 
 ![In the additional window of the chart we can see result of our calculations](../.gitbook/assets/result.png)
 
-As you can see it was not really difficult to create this indicator. Before starting writing your own code, check first, maybe the required calculations are already available in a built-in set. Quantower team is constantly working on adding new built-in indicators. If you have any ideas and proposals, what we should add — feel free to [contact us](https://www.quantower.com/contact-us).
+As you can see it was not really difficult to create this indicator. Before starting writing your own code, check first, maybe the required calculations are already available in a built-in set. FlowTrade team is constantly working on adding new built-in indicators. If you have any ideas and proposals, what we should add — feel free to [contact us](https://www.flowtrade.com/contact-us).

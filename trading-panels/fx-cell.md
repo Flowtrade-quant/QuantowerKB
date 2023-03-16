@@ -20,7 +20,7 @@ The FX Cell panel menu contains:
 
 ### Trading with FX Cell
 
-* **Select a trading instrument and an account.** You can select a trading symbol manually or through linking to a [Watchlist](https://help.quantower.com/analytics-panels/watchlist) or to other panels.
+* **Select a trading instrument and an account.** You can select a trading symbol manually or through linking to a [Watchlist](https://kb.flowtrade.com/analytics-panels/watchlist) or to other panels.
 
 ![](../.gitbook/assets/fx-cell-select-the-symbol.png)
 
@@ -28,4 +28,4 @@ The FX Cell panel menu contains:
 * **Set the order duration (TIF).** Depending on the selected connection, the TIF types may vary.
 * **Place the order**. Orders are placed by clicking the buy or sell buttons. You must confirm the order before it is placed.
 
-You can manage your open positions with the [Position panel](https://help.quantower.com/portfolio-panels/positions).
+You can manage your open positions with the [Position panel](https://kb.flowtrade.com/portfolio-panels/positions).

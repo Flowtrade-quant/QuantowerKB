@@ -35,7 +35,7 @@ You can create a hotkey to start any available pre-configured strategy using the
 
 ![Parameters for Strategy launch custom hotkey](../.gitbook/assets/image1.png)
 
-As in any other case with strategies management, you can see the list of active ones in a [Strategy runner panel](../quantower-algo/strategy-runner.md). There you can understand whether your strategy launched correctly and is working as you expected.&#x20;
+As in any other case with strategies management, you can see the list of active ones in a [Strategy runner panel](../FlowTrade-algo/strategy-runner.md). There you can understand whether your strategy launched correctly and is working as you expected.&#x20;
 
 ### Worth to know&#x20;
 

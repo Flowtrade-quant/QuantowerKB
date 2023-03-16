@@ -1,12 +1,12 @@
 ---
 description: >-
   Here you can find out what are the possibilities for manual trading on
-  Quantower directly from the chart.
+  FlowTrade directly from the chart.
 ---
 
 # Chart Trading
 
-Placing orders on the Quantower platform can be done using various panels, such as Order Entry, DOM Trader, and Chart. In this guide, we will show you how to place orders via the Chart panel using the sidebar trading toolbar and mouse mode.
+Placing orders on the FlowTrade platform can be done using various panels, such as Order Entry, DOM Trader, and Chart. In this guide, we will show you how to place orders via the Chart panel using the sidebar trading toolbar and mouse mode.
 
 ### **Chart Trading Toolbar**
 

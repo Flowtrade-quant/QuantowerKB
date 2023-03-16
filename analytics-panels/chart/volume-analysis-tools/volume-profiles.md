@@ -8,7 +8,7 @@ description: >-
 
 **Volume Profile** displays the trading activity over a specific time period at certain price levels. Meaning, it shows what was bought and sold at those current levels, and displays them in a histogram on the side of your chart. Volume Profile allows you to see the zones of maximum trading interest, and as a consequence, the "true" support/resistance levels.
 
-Quantower platform offers four types of Volume profiles:
+FlowTrade platform offers four types of Volume profiles:
 
 * ****[**Step Volume Profile**](volume-profiles.md#step-volume-profile)****
 * ****[**Left Volume Profile**](volume-profiles.md#left-and-right-volume-profiles)****
@@ -17,11 +17,11 @@ Quantower platform offers four types of Volume profiles:
 
 ### Step Volume Profile
 
-Step profile displays volume profiles with a certain time step. For example, set the step period to 1 hour, and you will see profiles with uniform hourly steps on the graph. By changing the [**data types**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools#data-types-of-volume-analysis-tools), you will see the distribution of the trading volume, the executed trades, as well as the delta for each hour of the trading session.
+Step profile displays volume profiles with a certain time step. For example, set the step period to 1 hour, and you will see profiles with uniform hourly steps on the graph. By changing the [**data types**](https://kb.flowtrade.com/analytics-panels/chart/volume-analysis-tools#data-types-of-volume-analysis-tools), you will see the distribution of the trading volume, the executed trades, as well as the delta for each hour of the trading session.
 
 You can enable Step Profile through the volume analysis toolbar or their settings.
 
-![Here is how you can activate Step Profile in Quantower platform](<../../../.gitbook/assets/step profile activation.gif>)
+![Here is how you can activate Step Profile in FlowTrade platform](<../../../.gitbook/assets/step profile activation.gif>)
 
 #### **General settings of step profile**
 
@@ -45,7 +45,7 @@ You can enable Step Profile through the volume analysis toolbar or their setting
 
 **Left** and **Right volume profiles** can be placed on the left and right sides of the chart respectively. For example, you can set the delta data on one profile, and on the other the total volume for the same period of time. You can **combine several profiles** that are built on different time periods into one combo profile and put it on the left or right chart position.
 
-![Quantower allows to place multiple volume profiles with different data types](<../../../.gitbook/assets/Left and right volume profile in Quantower.png>)
+![FlowTrade allows to place multiple volume profiles with different data types](<../../../.gitbook/assets/Left and right volume profile in FlowTrade.png>)
 
 #### General settings of Left and Right volume profiles
 
