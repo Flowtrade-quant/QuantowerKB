@@ -27,12 +27,12 @@ For ease of navigation, the Knowledge Base is divided into several categories th
 [trading-panels](trading-panels/)
 {% endcontent-ref %}
 
-{% content-ref url="portfolio-panels/" %}
-[portfolio-panels](portfolio-panels/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="informational-panels/" %}
-[informational-panels](informational-panels/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="miscellaneous-panels/" %}

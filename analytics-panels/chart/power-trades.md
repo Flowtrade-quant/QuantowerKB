@@ -1,12 +1,8 @@
 # Power Trades
 
-****[**Volume analysis tools**](volume-analysis-tools/) allow you to understand the causes of price movement, clarify and confirm support and resistance levels, as well as assess the imbalance between buyers and sellers. But volume tools are link to a specific time (timeframe), not allowing to see an execution of large orders at the moment.
+This is where you will customize your personal view for block trades.  To see dark pool only block trades use Flowtrade dark pool. To see regular block trades use Flowtrade equities
 
-Using **Power Trades** you can see the execution of a large number of orders in a very short time, which will affect the price change with a high probability.
-
-{% embed url="https://youtu.be/_4mCYtfUkgw" %}
-
-### What is **Power Trades** show?
+### What is **Power Trades**&#x20;
 
 **Power Trades** shows the zones with the execution of a large number of orders in a very short time, which will affect the price change with a high probability. Let's take a look at a few examples.
 
@@ -53,10 +49,9 @@ Settings that do not affect the indicator calculation. These are mostly visual a
 <figure><img src="../../.gitbook/assets/image (1) (5).png" alt=""><figcaption></figcaption></figure>
 
 * **Play alert sound** — the option turns on / off the sound signal when a new zone appears.
-* **Coloring view mode** — set the color for all found areas on the chart. \
-  &#x20;  **By delta mode**: colors can be set depending on the sign of the delta - positive or negative.\
-  &#x20;   **By filtered volume**: mode sets a different color for areas whose total volume is greater than or equal to the one set in the threshold.\
-
+* **Coloring view mode** — set the color for all found areas on the chart.\
+  **By delta mode**: colors can be set depending on the sign of the delta - positive or negative.\
+  **By filtered volume**: mode sets a different color for areas whose total volume is greater than or equal to the one set in the threshold.\\
 * **Highlight area color** — set color for the selected area on the chart
 * **Sidebar view mode** — setting controls the data displaying — **Table result, Market Depth only, Full view (Table + Market Depth), None**.
 
@@ -65,6 +60,3 @@ Settings that do not affect the indicator calculation. These are mostly visual a
 ### Power Trades and DOM tables
 
 When the Power Trades is enabled, it immediately starts searching for zones according to the settings. The search for zones takes place throughout the entire history available on the chart, so at a significant depth of history its calculation can take a long time.
-
-
-

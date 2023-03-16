@@ -12,7 +12,7 @@ description: >-
 
 ### Price Statistic & Volume Profile. What's the difference?
 
-As we have already said, the Price Statistic panel contains data in the form of a table that shows the volume profile. Below is an image showing how the panel is linked to the volumetric profile. 
+As we have already said, the Price Statistic panel contains data in the form of a table that shows the volume profile. Below is an image showing how the panel is linked to the volumetric profile.
 
 The main difference and advantage of the Price Statistic is that the table presents all available volume data for a particular price, which can be sorted or uploaded to an external csv file for further analysis.
 
@@ -24,20 +24,18 @@ Volume profile and data in the Price Statistic table are built for the current d
 
 In the main menu of the platform in the _**Analytics category**_, find the Price Statistic panel and click on it to launch it.
 
-![Launch the Price Statistic panel](../.gitbook/assets/launch-price-statistic.png)
-
 ### Availalbe Data types in Price Statistic
 
 Each column in the table corresponds to a specific data type that you can show / hide through the panel settings or by right-clicking on the table.
 
-![Adding columns to the Price Statistic table ](../.gitbook/assets/add-columns-to-price-statistic.gif)
+![Adding columns to the Price Statistic table](../.gitbook/assets/add-columns-to-price-statistic.gif)
 
 * **Trades** — it's the number of contracts (trades) that executed at each price level.
 * **Buy (or Sell) trades** — it's the number of Buy (or Sell) trades that executed at each price level.
 * **Volume** — the total size of all positions that executed at each price level or price range.
 * **Buy (or Sell) Volume** — the total size of all Buy (or sell) positions that executed at each price level or price range.
 * **Buy (or Sell) Volume, %** — shows how many percent of the total volume relates to Buy (or Sell) trades
-* **Delta and Delta %** — shows the difference in traded Volume between Buyers and Sellers. It allows evaluating who controls the price on the market at a given time. \
+* **Delta and Delta %** — shows the difference in traded Volume between Buyers and Sellers. It allows evaluating who controls the price on the market at a given time.\
   Delta % = Delta / Volume \* 100
 * **Average size** — the average volume of the position that was executed at a certain price or price range.
 * **Average Buy size** — the average volume of a Buy position that was executed at a specific price or price range.

@@ -22,14 +22,11 @@ Note that each start and stop of the simulator creates a new trading account.
 ### How to start trading simulation?
 
 * Launch the **Trading Simulator** from the Control Center. The panel is located in the _Trading_ category.
-
-![](<../.gitbook/assets/image (350) (1) (1).png>)
-
 * Add desired symbols on which the trading simulation will take place.
 
 ![Adding the trading symbol to Trading Simulator panel](<../.gitbook/assets/trading simulator.gif>)
 
-* Set the initial balance for trading accounts, execution delay, type of netting for selected symbols, and commission size.&#x20;
+* Set the initial balance for trading accounts, execution delay, type of netting for selected symbols, and commission size.
 
 ![Set initial balance for trading](<../.gitbook/assets/image (352) (1) (1).png>)
 

@@ -1,2 +1,0 @@
-# Connection to Interactive Brokers
-

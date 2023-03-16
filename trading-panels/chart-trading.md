@@ -10,12 +10,12 @@ Placing orders on the FlowTrade platform can be done using various panels, such 
 
 ### **Chart Trading Toolbar**
 
-* ****[**How to open the chart trading toolbar**](chart-trading.md#how-to-open-quick-trade-toolbar)****
-* ****[**How to manage Quick Order Quantity buttons**](chart-trading.md#quick-change-order-amount-buttons)****
-* ****[**Slider to enter the volume of the position**](chart-trading.md#slider-to-enter-the-volume-of-the-position-in-dollars)****
-* ****[**How to set up Take Profit and Stop Loss orders**](chart-trading.md#how-to-set-up-profit-and-stop-orders)****
-* ****[**How to set up  several Take profit and Stop Loss orders for one position**](chart-trading.md#how-to-set-up-several-take-profit-and-stop-loss-orders-for-one-position)****
-* ****[**A set of buttons for quick order and position management**](chart-trading.md#a-set-of-buttons-for-quick-order-and-position-management)****
+* [**How to open the chart trading toolbar**](chart-trading.md#how-to-open-quick-trade-toolbar)
+* [**How to manage Quick Order Quantity buttons**](chart-trading.md#quick-change-order-amount-buttons)
+* [**Slider to enter the volume of the position**](chart-trading.md#slider-to-enter-the-volume-of-the-position-in-dollars)
+* [**How to set up Take Profit and Stop Loss orders**](chart-trading.md#how-to-set-up-profit-and-stop-orders)
+* [**How to set up several Take profit and Stop Loss orders for one position**](chart-trading.md#how-to-set-up-several-take-profit-and-stop-loss-orders-for-one-position)
+* [**A set of buttons for quick order and position management**](chart-trading.md#a-set-of-buttons-for-quick-order-and-position-management)
 
 [Quick order entry](chart-trading.md#quick-order-entry)
 
@@ -40,7 +40,7 @@ To activate the quick trading toolbar, click on the button in the upper right co
 
 {% hint style="info" %}
 The general view of Chart Trading Toolbar may differ depending on the available functions for each trade connection.\
-This panel will be slightly different for crypto connections, as well as for those that do not allow to create Brackets or server-side Stop Loss / Take Profit orders. For more details about available order types for each connection, please check the [**Order Types section**](order-entry/order-types.md)****
+This panel will be slightly different for crypto connections, as well as for those that do not allow to create Brackets or server-side Stop Loss / Take Profit orders. For more details about available order types for each connection, please check the [**Order Types section**](broken-reference)\*\*\*\*
 {% endhint %}
 
 ![](../.gitbook/assets/chart-trading-toolbar.gif)
@@ -67,7 +67,7 @@ By right-clicking, you can save the default order entry settings for all symbols
 
 ### Slider to enter the volume of the position in dollars
 
-There are two ways to enter the quantity of a position&#x20;
+There are two ways to enter the quantity of a position
 
 * Entering an order in lots of a traded symbol or coin - this was described above
 * Entering the amount of money planned to purchase that asset.
@@ -94,15 +94,15 @@ Some brokers such as Binance do not allow stop orders for limit orders. (Until t
 
 ![](<../.gitbook/assets/animaciya-3- (1).gif>)
 
-* Use the Quick Trade toolbar&#x20;
-* Set your values for stop loss or profit. You can also use any one parameter only.&#x20;
+* Use the Quick Trade toolbar
+* Set your values for stop loss or profit. You can also use any one parameter only.
 * Use the button to activate the trade with the mouse to set a limit order
 
 {% hint style="warning" %}
 If you execute an order at market, the specified stop parameters will retain their values and will be set immediately.
 {% endhint %}
 
-### How to set up  several Take profit and Stop Loss orders for one position
+### How to set up several Take profit and Stop Loss orders for one position
 
 ![](../.gitbook/assets/animaciya-4-.gif)
 
@@ -110,8 +110,8 @@ If you execute an order at market, the specified stop parameters will retain the
 This example is for connecting a CQG/AMP
 {% endhint %}
 
-* To set multiple stop orders for a single position, do the following Switch the bracket (stop) settings to multi mode&#x20;
-* Enter data for setting the first limit orders and how many lots or coins should be closed&#x20;
+* To set multiple stop orders for a single position, do the following Switch the bracket (stop) settings to multi mode
+* Enter data for setting the first limit orders and how many lots or coins should be closed
 * For the next stops, enter similar data on the next line.
 * You can set orders in multiples of your total volume
 
@@ -121,7 +121,7 @@ This example is for connecting a CQG/AMP
 
 ![](<../.gitbook/assets/image (292).png>)
 
-2\.  Next comes a large block of functions for managing the current position. You can delete or limit orders or stops. You can also reverse your position with one button or set it to no loss. These are very functional buttons, do not miss them.
+2\. Next comes a large block of functions for managing the current position. You can delete or limit orders or stops. You can also reverse your position with one button or set it to no loss. These are very functional buttons, do not miss them.
 
 ## Quick order entry
 

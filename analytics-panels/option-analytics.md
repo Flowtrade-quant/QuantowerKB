@@ -12,8 +12,6 @@ Option Analytics is a professional panel for options traders that allows making 
 
 To open a new Options Analytics panel, go to the _**Main menu**_ (Logo icon) and select _**Options Analytics**_ in the Analytics section.
 
-![Open Options Analytics panel via Main menu](../.gitbook/assets/options-analytics-how-to-launch.png)
-
 ### Key Elements of Options Analytics panel
 
 ![](../.gitbook/assets/optionanalytics.png)

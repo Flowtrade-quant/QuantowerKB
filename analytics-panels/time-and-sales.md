@@ -15,10 +15,6 @@ Time & Sales panel keeps a running record of trades for selected instruments dis
 
 ![Time & Sales panel in FlowTrade shows all executed trades](../.gitbook/assets/time-and-sales.gif)
 
-{% embed url="https://www.youtube.com/watch?v=-R_AXBMlNpM" %}
-Aggregated Time & Sales in FlowTrade also known as Reconstructed Tape
-{% endembed %}
-
 ### Real-time and Historical modes
 
 Real-time mode shows all the trades that are currently executed. The historical mode allows you to get all past trades for a specified period of time directly in the panel.
@@ -27,7 +23,7 @@ Real-time mode shows all the trades that are currently executed. The historical 
 
 ### General settings
 
-The basic settings in Time & Sales are similar to the parameters of most panels in FlowTrade — full flexibility in color settings, fonts, columns visibility, data position relative to the column, etc.&#x20;
+The basic settings in Time & Sales are similar to the parameters of most panels in FlowTrade — full flexibility in color settings, fonts, columns visibility, data position relative to the column, etc.
 
 <figure><img src="../.gitbook/assets/image (59).png" alt=""><figcaption><p>Time &#x26; Sales settings in FlowTrade</p></figcaption></figure>
 
@@ -51,7 +47,7 @@ But some settings are unique for this panel:
     \
     **Round to:** This option rounds values after the decimal point to the specified number of decimal places.
 
-    ****\
+    \*\*\*\*\
     **Abbreviate:** This option abbreviates values to the shortest form, such as "K" for thousands, "M" for millions, etc.
 
 ### Export Data
@@ -79,10 +75,10 @@ Rows in the table can be filtered by some data value in their column. There are 
 Once you select some option — the table rows will be filtered to those ones, containing the selected value. Quick filter can be canceled by pressing “_**Cancel filtering**_” option.
 
 {% hint style="info" %}
-Quick filtering can be applied only to one column of the table. For filtering multiple columns, we recommend to use  “_**Setup actions**_”.
+Quick filtering can be applied only to one column of the table. For filtering multiple columns, we recommend to use “_**Setup actions**_”.
 {% endhint %}
 
-* **Advanced filtering,** for applying more complex filtering (multi-filtering). Select in the panel's context menu option “_**Setup actions**_”.&#x20;
+* **Advanced filtering,** for applying more complex filtering (multi-filtering). Select in the panel's context menu option “_**Setup actions**_”.
 
 <figure><img src="../.gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
 
@@ -92,7 +88,7 @@ This screen has two tabs on the left side, where the first one is an Advanced fi
 
 This screen allows you to Enable/Disable filtering as well as set up filtering Conditions. These conditions are set up as:
 
-&#x20;                                               _IF (condition1 AND condition2 ...) OR (conditionN...) …_
+_IF (condition1 AND condition2 ...) OR (conditionN...) …_
 
 You can set up as many conditions as you like. Due to the possible complex logic of filtering, you are required to apply the changes once you finished the filter set up.
 

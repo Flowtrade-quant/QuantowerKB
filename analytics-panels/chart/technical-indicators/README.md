@@ -6,8 +6,6 @@ description: >-
 
 # Technical indicators
 
-{% embed url="https://www.youtube.com/watch?v=vnMvHggnYv0" %}
-
 {% tabs %}
 {% tab title="Channels" %}
 ![](<../../../.gitbook/assets/image (350).png>)

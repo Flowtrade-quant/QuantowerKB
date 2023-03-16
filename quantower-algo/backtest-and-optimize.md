@@ -1,6 +1,6 @@
 # Backtest & Optimize
 
-Previously a part of the "Strategy runner" panel's functionality, strategies backtesting is integral to any algo-trading development process. With the latest Quantower update, we separated this feature into an individual panel called the "Backtest & Optimize." Let's learn more about this tool and its new features and enhancements.
+Previously a part of the "Strategy runner" panel's functionality, strategies backtesting is integral to any algo-trading development process. With the latest Flowtrade update, we separated this feature into an individual panel called the "Backtest & Optimize." Let's learn more about this tool and its new features and enhancements.
 
 ## Start & general view
 

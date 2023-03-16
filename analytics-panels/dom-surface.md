@@ -10,8 +10,6 @@ Using the **DOM Surface** panel, a trader sees all changes of limit orders in th
 
 Unlike other types of charts, such as Footprint (or Cluster chart), the Order Flow shows not only aggressive market orders but also limit orders, which have a greater influence on the price behavior.
 
-{% embed url="https://youtu.be/DokWC7aIPM4" %}
-
 ### **How To Interpret The DOM Surface Chart**
 
 Price changes due to matching between limit and market orders:
@@ -41,7 +39,7 @@ In the panel's general settings there are a number of settings that are identica
 
 **DOM levels count** — shows the number of price levels in each direction from Best Bid and Best Offer.
 
-**Maximal level2 size**  — allows you to adjust the brightness of levels depending on the specified volume value. There are two modes: _**Auto, Custom**_.
+**Maximal level2 size** — allows you to adjust the brightness of levels depending on the specified volume value. There are two modes: _**Auto, Custom**_.
 
 For example, let's set the value to 20. All levels where the volume is equal to or exceeds this value will have the brightest color. All levels with the volume less than the set value will have a less vivid coloring proportional to the volume on them.
 
@@ -56,7 +54,4 @@ On the right side of the panel, there are three histograms — **Size, Cumulativ
 * **Cumulative Size**\
   This histogram displays the sum of sizes of limit orders for each subsequent level. This histogram allows estimating the dominating side of the market.
 * **Imbalance (Order Book Imbalance)**\
-  ****This histogram shows the percentage of how much the volume of buy orders exceeds the amount of sell orders (and vice versa) for each price level. It measures whether the limit order book is buy or sell heavy. The more the imbalance exceeds one side, the higher the probability of price movement towards the imbalance. In fact, it is a good predictor of price direction.
-
-
-
+  \*\*\*\*This histogram shows the percentage of how much the volume of buy orders exceeds the amount of sell orders (and vice versa) for each price level. It measures whether the limit order book is buy or sell heavy. The more the imbalance exceeds one side, the higher the probability of price movement towards the imbalance. In fact, it is a good predictor of price direction.

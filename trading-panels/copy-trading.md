@@ -6,20 +6,18 @@ description: >-
 
 # Copy Trading
 
-One of the frequent questions from our community is: how to Copy trading between multiple accounts? Such functionality can be very useful for proprietary trading companies and managers with multiple accounts who use FlowTrade as their trading tool.
+One of the frequent questions from our community is: how to Copy trading between multiple accounts? Such functionality can be very useful for proprietary trading companies and managers with multiple accounts who use Flowtrade as their trading tool.
 
 ## **Introduction**
 
-The panel performs trading operations and thus can be found in the "<mark style="background-color:green;">**Trading**</mark>" group of the FlowTrade main menu.
-
-![Copy trading panel in a list of other panels](../.gitbook/assets/frame-9.png)
+The panel performs trading operations and thus can be found in the "<mark style="background-color:green;">**Trading**</mark>" group of the Flowtrade main menu.
 
 Copy trading panel allows you to fully duplicate trading activity between multiple accounts of the same connection. Unlike the “Multiple order” panel, this panel will automatically copy all Parent's account transactions into the specified Child account(s) once you have created and launched a special algorithm (Bot).
 
 {% hint style="info" %}
 Before you start creating your first Copy-bot, please notice the following information:
 
-\- Copy-trading can work only if the FlowTrade terminal is launched.
+\- Copy-trading can work only if the Flowtrade terminal is launched.
 
 \- If the dependent connections (parent & child) are NOT ACTIVE, the Bot will copy orders for active connections only and ignore disconnected.
 
@@ -28,23 +26,21 @@ Before you start creating your first Copy-bot, please notice the following infor
 \-The Copy trading panel currently supports the following connections only: **Rithmic, CQG, FTX, Binance, Binance Futures, Bitfinex, Bybit, BitMEX, and Interactive Brokers**
 {% endhint %}
 
-{% embed url="https://youtu.be/qIE2BxBvuJo" %}
-
 ## Create a Copy-bot
 
 Once you open a Copy trading panel, you will find the Bots management screen, divided into “Bots list” and “Logs”. Let’s create a new copy trading bot. To do this, click on the Plus button on the panel’s toolbar, and you will see the “New copy trading bot” screen appear.
 
 ![New copy bot creation screen](../.gitbook/assets/frame-10.png)
 
-Here you should name your bot and specify Parent connection (account) to set up where to copy trades from. Now we should add dependent connections by pressing the Plus button next to the “Child connections” label. Each new item line in the following table represents a Child connection that will copy all trading activities from the Parent.&#x20;
+Here you should name your bot and specify Parent connection (account) to set up where to copy trades from. Now we should add dependent connections by pressing the Plus button next to the “Child connections” label. Each new item line in the following table represents a Child connection that will copy all trading activities from the Parent.
 
-### Add multi accounts for the same connect&#xD;
+### Add multi accounts for the same connect
 
-Now we should specify the dependent connection and account. To add another account for the same connection in FlowTrade, you should go to Connections manager, duplicate the required connection, rename it optionally, and log in with another account credentials. You may repeat this action for as many accounts as you need. Later you will see all these accounts in Child connections settings.
+Now we should specify the dependent connection and account. To add another account for the same connection in Flowtrade, you should go to Connections manager, duplicate the required connection, rename it optionally, and log in with another account credentials. You may repeat this action for as many accounts as you need. Later you will see all these accounts in Child connections settings.
 
 ![](../.gitbook/assets/frame-11.png)
 
-### Copy-trading mods&#xD;
+### Copy-trading mods
 
 The quantity copy mode option tells the bot how to calculate the quantity for copied order relative to the Parent order. There are two options: Percentage and Multiplier.
 
@@ -53,7 +49,6 @@ In a **Percentage mode**, the bot will calculate the quantity relative to the Pa
 {% hint style="success" %}
 **Percentage Example:** Parent account has a balance of $1000. The Child account has a balance of $2000. When you place an order on the parent account equal to $100 (10% of the total balance), an order will be placed automatically on the child account for 10% of its total balance, or 200$.
 {% endhint %}
-
 
 In a **Multiplier mode**, the bot will take a quantity from the Parent order and multiply it with the Multiplier coefficient, thus getting a quantity value for a Child copy order.
 
@@ -64,7 +59,6 @@ In a **Multiplier mode**, the bot will take a quantity from the Parent order and
 Once we set up all of the Bot settings, click the Save button. Now we see that the new Copy trading bot appeared in the Bots list section.
 
 Copy-Bots management
-
 
 Once created, any Bot is stopped and not monitoring Parent’s trading activities. To activate it, click the Start button. Now it is Working and ready to copy your orders to Child accounts.
 
@@ -82,9 +76,6 @@ Bot management table contains the following information and controls:
 
 Visual control
 
-
 You can visually observe the complete synchronization of trades by opening two charts at the same time. Just after you send an order, the Bot will copy it to a Child account. If you modify your order — the Child account order will be modified also. Canceled orders will be canceled for the dependent account also. By the way, Stop Loss and Take profit orders for our position are also successfully mirroring to the dependent account.
-
-![](../.gitbook/assets/image-20.png)
 
 All actions of activated Bots will be shown in a Logs list at the panel’s bottom, including information about "start" & "stop" time, and all of the copy-trading activities. You can even change the logs period on the toolbar above the Logs table.

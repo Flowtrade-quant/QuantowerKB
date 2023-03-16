@@ -6,8 +6,8 @@ description: >-
 
 # Market Replay
 
-****[**First launch of the Market Replay**](history-player.md#first-launch-of-the-market-replay)****\
-****[**General and instruments settings**](history-player.md#general-and-instruments-settings)****
+[**First launch of the Market Replay**](history-player.md#first-launch-of-the-market-replay)\
+[**General and instruments settings**](history-player.md#general-and-instruments-settings)
 
 ### What is Market Replay
 
@@ -19,21 +19,15 @@ Therefore FlowTrade provides the **Market Replay panel** for simple manual backt
 
 Market Replay allows you to test on any trading instruments with any vendor or broker. This is especially useful when you have access to the data feed that does not allow execution of orders (quotation date feeds like IQFeed or crypto exchange).
 
-{% embed url="https://www.youtube.com/watch?v=za-eE8ZSmV8" %}
-How to backtest a trading strategy with Market Replay panel
-{% endembed %}
-
 ### First launch of the Market Replay
 
 * Start the panel from the main application menu
 * Add a trading instrument for testing
-* Set the data type  — Tick, 1 minute, 1 day
-* Set the execution type  — Last or Bid/Ask/Last
+* Set the data type — Tick, 1 minute, 1 day
+* Set the execution type — Last or Bid/Ask/Last
 * Click on the "Start" button to start testing
 
 In our blog, we showed in detail the process of [manual backtesting of trading strategies using the Market Replay panel](https://www.flowtrade.com/blog/software-for-manual-backtesting-a-brief-review-of-history-player-plugin).
-
-![Launch Market Replay panel](../.gitbook/assets/market-replay-start.png)
 
 ![General view of Market Replay with main settings](../.gitbook/assets/market-replay-for-new-instruments.png)
 
@@ -71,7 +65,7 @@ In the **Netting type** section, you can choose the method by which to summarize
 
 ![Positions are overlapped by the netting type called "One Position"](../.gitbook/assets/orders-matching-mode-one-position.gif)
 
-* **Multiple per Side** - this mode allows you to open many different positions in one direction.  For example, opening several positions in the sequence, they will be opened separately. Opposite trades (for sale) will close them.
+* **Multiple per Side** - this mode allows you to open many different positions in one direction. For example, opening several positions in the sequence, they will be opened separately. Opposite trades (for sale) will close them.
 
 ![Positions are overlapped by the netting type called "Multiple Per Side"](../.gitbook/assets/orders-matching-mode-multiple-per-side.gif)
 

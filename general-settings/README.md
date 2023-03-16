@@ -89,7 +89,7 @@ You can also remove any of Workspaces by clicking the “_**Trash**_” icon on 
 
 ### Favorite connections
 
-The list of active connections can be seen on Main Toolbar in Favorite connections block. By default, you will see several items here, each representing one of the available connections. The [Connection manager](../connections/connections-manager.md) screen will be opened by clicking any of the items in Favorite connections block.
+The list of active connections can be seen on Main Toolbar in Favorite connections block. By default, you will see several items here, each representing one of the available connections. The [Connection manager](broken-reference) screen will be opened by clicking any of the items in Favorite connections block.
 
 ![Add favorite connections by clicking the "Star" icon](../.gitbook/assets/favorite-connections.png)
 

@@ -8,13 +8,13 @@ description: >-
 
 **Setup Actions** feature allows you to set certain behavior on some data change in the table. This feature is available in panels:
 
-* ****[**Watchlist**](../analytics-panels/watchlist.md)****
-* ****[**Time & Sales**](../analytics-panels/time-and-sales.md#setup-actions-filters-and-actions)****
-* ****[**Price Statistic**](../analytics-panels/price-statistic.md)****
-* ****[**Working Orders**](../portfolio-panels/working-orders.md)****
-* ****[**Positions**](../portfolio-panels/positions.md)****
-* ****[**Trades**](../portfolio-panels/trades.md)****
-* ****[**Orders History**](../portfolio-panels/orders-history.md)****
+* [**Watchlist**](../analytics-panels/watchlist.md)
+* [**Time & Sales**](../analytics-panels/time-and-sales.md#setup-actions-filters-and-actions)
+* [**Price Statistic**](../analytics-panels/price-statistic.md)
+* [**Working Orders**](broken-reference)
+* [**Positions**](broken-reference)
+* [**Trades**](broken-reference)
+* [**Orders History**](broken-reference)
 
 ![Setup Actions feature in FlowTrade platform](<../.gitbook/assets/image (64).png>)
 
@@ -34,10 +34,10 @@ Currently, FlowTrade tables support four types of actions:
 
 The Table actions functionality can be found under the panel’s context menu option “Setup Actions” and once launched, it opens an “Actions screen”, where you can manage your Actions. The process of Action creation is not complicated.
 
-1. Create an Action item 
-2. Set conditions (“OR” & “AND”) 
-3. Set tasks (Show message, Play sound, Color row, Color cell) 
-4. Save Action 
+1. Create an Action item
+2. Set conditions (“OR” & “AND”)
+3. Set tasks (Show message, Play sound, Color row, Color cell)
+4. Save Action
 5. Enable Action
 
 ### Table actions tasks
@@ -60,7 +60,7 @@ Rows in the table can be filtered by some data values in their column. There are
 
 * **Quick filtering** can be accessed by clicking the “_**Filter**_” icon in any table column’s header.
 
-![Quick filtering per column](https://gblobscdn.gitbook.com/assets%2F-LD6FsRvQ3jgwJIg6O7r%2F-LSZlUr_Myk0rKIIPYb3%2F-LSZtsdnR8ZXyAorsvkj%2FQuick%20filtering.png?alt=media\&token=ccff8243-c69e-427c-8825-00c8ce9e1818)
+![Quick filtering per column](https://gblobscdn.gitbook.com/assets%2F-LD6FsRvQ3jgwJIg6O7r%2F-LSZlUr\_Myk0rKIIPYb3%2F-LSZtsdnR8ZXyAorsvkj%2FQuick%20filtering.png?alt=media\&token=ccff8243-c69e-427c-8825-00c8ce9e1818)
 
 Once you select some option — the table rows will be filtered to those ones, containing the selected value. Quick filter can be canceled by pressing “_**Cancel filtering**_” option.
 
@@ -72,7 +72,7 @@ Quick filtering can be applied only to one column of the table. For filtering mu
 
 This screen has two tabs on the left side, where the first one is an Advanced filter.
 
-![Advanced filtering in Time & Sales panel](https://gblobscdn.gitbook.com/assets%2F-LD6FsRvQ3jgwJIg6O7r%2F-LSZlUr_Myk0rKIIPYb3%2F-LS\_5SP-opC1CiDG-iws%2Fadvanced%20filtering.png?alt=media\&token=e2d74d74-7ee5-4533-ae11-09d4db0ab09c)
+![Advanced filtering in Time & Sales panel](https://gblobscdn.gitbook.com/assets%2F-LD6FsRvQ3jgwJIg6O7r%2F-LSZlUr\_Myk0rKIIPYb3%2F-LS\_5SP-opC1CiDG-iws%2Fadvanced%20filtering.png?alt=media\&token=e2d74d74-7ee5-4533-ae11-09d4db0ab09c)
 
 This screen allows you to Enable/disable filtering as well as set up filtering Conditions. These conditions are set up as:
 
@@ -81,4 +81,3 @@ IF (condition1AND condition2 ...) OR (conditionN...) …
 $$
 
 You can setup as many conditions as you like. Due to the possible complex logic of filtering, you are required to apply the changes once you finished the filter set up.
-

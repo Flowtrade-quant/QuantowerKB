@@ -4,22 +4,14 @@ description: The most powerful tools for drawing levels and other elements on th
 
 # Drawing tools
 
-* [**How to synchronize drawings between multiple charts?**](drawing-tools.md#how-to-synchronize-drawings-between-multiple-charts)****
-* ****[**How to create multiple templates for drawings?**](drawing-tools.md#how-to-create-multiple-templates-for-drawings)****
+* [**How to synchronize drawings between multiple charts?**](drawing-tools.md#how-to-synchronize-drawings-between-multiple-charts)\*\*\*\*
+* [**How to create multiple templates for drawings?**](drawing-tools.md#how-to-create-multiple-templates-for-drawings)
 
 The drawing library in the FlowTrade platform has a big list of tools for any traders. For its activation, please click on the "<mark style="background-color:blue;">**Pencil**</mark>' icon and the full list of tools will appear.
 
 ![](<../../.gitbook/assets/image (359).png>)
 
-{% embed url="https://www.youtube.com/watch?v=NSX4JQq6i7U" %}
-How to add favorite drawing tools to the side bar
-{% endembed %}
-
 ### How to synchronize drawings between multiple charts?
-
-{% embed url="https://www.youtube.com/watch?v=BtC9iJEOcjY" %}
-Learn how to Synchronize Drawing Tools between multiple charts
-{% endembed %}
 
 ### How to create multiple templates for drawings?
 
