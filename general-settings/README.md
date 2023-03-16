@@ -28,19 +28,15 @@ The “_**Close**_” icon just closes the platform. You may set up the “_not 
 
 For optimal use of the space on the Main Toolbar, we have added the ability to display/hide some controls. For example, to hide the Timezones, Workspaces, Connections, etc., **Right-click** on the context menu and go to the View section. By clicking on the ticks, the controls will appear at the Toolbar.
 
-![Right click on the Main Toolbar will bring up the addtional settings window](<../.gitbook/assets/image (76).png>)
-
 ### Main Menu with all panels
 
 All of the panels are placed in the _“Sidebar”_ screen, which is popping out once you click the **Logo icon** on the toolbar. The Main Menu consists of panel icons, grouped by functionality. Actually, in this menu, you can find all panels.
-
-![Main menu in the Quantower platform](../.gitbook/assets/main-manu.png)
 
 Each group in this menu can be collapsed in order to make the panels list cleaner. From this place, you can open any panel by left-clicking on its icon. Each group has its color to help you determine the functional assignment of each panel.
 
 The footer of the Main Menu contains several functions:
 
-* “**About**” link: opens a screen with information about terminal (version, rollback, updates checker etc.). If the system detects the new version of Quantower, the **“NEW VERSION”** button appears instead of this link;
+* “**About**” link: opens a screen with information about terminal (version, rollback, updates checker etc.). If the system detects the new version of Flowtrade, the **“NEW VERSION”** button appears instead of this link;
 * “**Exit**” button closes the application.
 
 {% hint style="info" %}
@@ -50,8 +46,6 @@ The list of links in footer can contain more or fewer items, depending on curren
 ### Favorite panels
 
 You might already have seen the Star icon in the right top corners of some panels tiles in Sidebar. This is the “**Favorite panels**” functionality, allowing you to select the most usable panels and place their icons on the Main Toolbar.
-
-![Favorite panels](../.gitbook/assets/favorite-panels.gif)
 
 The way to use it is very simple — hover over the right top corner of any panel tile in Sidebar and click the Star icon that appeared. That is all: a panel appears in the Favorite panels bar in Main Toolbar. To remove from favorites just click the activated Star icon on Panel's tile or right-click on the icon in Favorites panel and select “_**Hide from toolbar**_”.
 
@@ -66,10 +60,6 @@ If you would like to prevent manual trading operations occur, you may use the �
 This feature is useful in case you would like to only analyze the market or while editing your workspace (mostly to avoid misclicks).
 
 ### Workspaces manager
-
-{% embed url="https://www.youtube.com/watch?v=A_2gJdeP-08&t=20s" %}
-Create and save your workspace in Quantower
-{% endembed %}
 
 **Workspaces manager** allows you to see, create, edit and delete your working environments as well as lock their modification. It is represented with the special icon, that opens the list of available Workspaces once being clicked.
 
