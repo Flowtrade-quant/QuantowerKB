@@ -10,16 +10,16 @@ Click on the **Gear icon** on the [main toolbar](main-toolbar.md) to open Genera
 
 ![General Settings are placed on the platform's main toolbar (Gear Icon)](<../.gitbook/assets/image (134).png>)
 
-It is logically grouped into several tabs: 
+It is logically grouped into several tabs:
 
-* [**General**](general-settings-1.md#general)****
-* ****[**Control Center**](general-settings-1.md#control-center)****
-* ****[**Sounds**](general-settings-1.md#sounds)****
-* ****[**Confirmations & Warnings**](general-settings-1.md#confirmations)****
-* ****[**Time zone settings**](general-settings-1.md#time-zones)****
-* ****[**Excel RTD**](../miscellaneous-panels/excel-rtd-trading/)****
-* ****[**Messengers**](general-settings-1.md#messengers)****
-* ****[**Hotkeys**](general-settings-1.md#global-hotkeys)****
+* [**General**](general-settings-1.md#general)\*\*\*\*
+* [**Control Center**](general-settings-1.md#control-center)
+* [**Sounds**](general-settings-1.md#sounds)
+* [**Confirmations & Warnings**](general-settings-1.md#confirmations)
+* [**Time zone settings**](general-settings-1.md#time-zones)
+* [**Excel RTD**](../miscellaneous-panels/excel-rtd-trading/)
+* [**Messengers**](general-settings-1.md#messengers)
+* [**Hotkeys**](general-settings-1.md#global-hotkeys)
 
 {% hint style="info" %}
 Most settings are applied automatically, once you change them, but, in some cases, you will be prompted to confirm the changes apply; this action is required for complex settings, where the one change will influence a complex logic.
@@ -39,8 +39,6 @@ Most settings are applied automatically, once you change them, but, in some case
 * Light Forest
 * Light Gold
 * Light Water
-
-![Coloring themes in FlowTrade](../.gitbook/assets/themes.gif)
 
 **Language (beta)** — FlowTrade supports 17 languages. In case of errors or inaccuracies in translation, any user can make changes to the text. Read the manual on [how to make changes in the selected language](https://kb.flowtrade.com/customization/localization).
 
@@ -66,8 +64,6 @@ Most settings are applied automatically, once you change them, but, in some case
 
 **Beta Version.** When this option is activated, you will receive updates to new functionality that is still in testing. We strive for our traders to use fully working functionality, but for this, we need the help of each user. Therefore, we ask as many people as possible to use the Beta version to inform us about possible bugs that eluded our testers.
 
-{% embed url="https://www.youtube.com/watch?v=L21kFXQaWQ0" %}
-
 ## Control Center
 
 Control center is the starting point of the platform, used as a launcher and informer simultaneously. And for optimal use of the space on it, we have added the ability to display/hide some controls.
@@ -82,7 +78,7 @@ Sounds are a good way of additional interaction with user allowing to inform abo
 
 **Enable sounds** — activates or disables all of the application sounds globally
 
-The group of actions in FlowTrade, when the sound should be played consists of the most vital situations in application usage. This list is not final and can be extended or changed later. Each option has a set of controls: 
+The group of actions in FlowTrade, when the sound should be played consists of the most vital situations in application usage. This list is not final and can be extended or changed later. Each option has a set of controls:
 
 * enable/disable checkbox
 * action name
@@ -133,4 +129,3 @@ Enter your chat ID in the corresponding field and then connect to the FlowTrade 
 ## Global Hotkeys
 
 ![](<../.gitbook/assets/image (74).png>)
-

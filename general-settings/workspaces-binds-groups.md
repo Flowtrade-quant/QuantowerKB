@@ -9,14 +9,10 @@ description: >-
 The highest level of trading area organization — is a **Workspace**. This is the most general grouping layer that you may even don’t need most of the time.
 
 {% hint style="success" %}
-**FlowTrade auto-saves each workspace** into its local file every 5 mins, in order to keep them safe.
+**Flowtrade auto-saves each workspace** into its local file every 5 mins, in order to keep them safe.
 {% endhint %}
 
-As a top-level grouping layer, Workspaces store all their contents in special local files. These files can be found in _**FlowTrade -> Settings -> Workspaces**_ folder. Each file represents some workspace; both have the similar names. Technically, the workspace file is an XML-document containing all of the settings of all panels that are in the workspace.&#x20;
-
-{% embed url="https://www.youtube.com/watch?v=A_2gJdeP-08&t=20s" %}
-How to create and save your custom workspace
-{% endembed %}
+As a top-level grouping layer, Workspaces store all their contents in special local files. These files can be found in Flowtrade _**-> Settings -> Workspaces**_ folder. Each file represents some workspace; both have the similar names. Technically, the workspace file is an XML-document containing all of the settings of all panels that are in the workspace.
 
 **Workspaces manager** allows you to see, create, edit and delete your working environments as well as lock their modification. It is represented with the special icon, that opens the list of available Workspaces once being clicked.
 
@@ -30,10 +26,10 @@ The currently active workspace is marked with the color and has a blue dot on th
 
 ![New workspace creation window](../.gitbook/assets/ccnewworkspace.png)
 
-When creating the new workspace, you have an ability to specify its future name and select whether it should be Blank, once created, or should contain some predefined panels set.&#x20;
+When creating the new workspace, you have an ability to specify its future name and select whether it should be Blank, once created, or should contain some predefined panels set.
 
 {% hint style="success" %}
-The list of Workspace templates will be constantly growing.&#x20;
+The list of Workspace templates will be constantly growing.
 {% endhint %}
 
 You can also Remove any of Workspaces by clicking the “_**Trash**_” icon on the right side from Workspace name (icon appears while hovering the name).

@@ -38,11 +38,3 @@ For ease of navigation, the Knowledge Base is divided into several categories th
 {% content-ref url="miscellaneous-panels/" %}
 [miscellaneous-panels](miscellaneous-panels/)
 {% endcontent-ref %}
-
-{% content-ref url="FlowTrade-algo/" %}
-[FlowTrade-algo](FlowTrade-algo/)
-{% endcontent-ref %}
-
-{% content-ref url="customization/" %}
-[customization](customization/)
-{% endcontent-ref %}

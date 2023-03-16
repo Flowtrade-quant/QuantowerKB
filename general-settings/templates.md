@@ -14,7 +14,7 @@ You can _**save any**_ [_**Panel**_](standalone-panels.md)_**,**_ [_**Group**_](
 
 ### How to create the template?
 
-The process of Template creation is as simple as 1-2-3:&#x20;
+The process of Template creation is as simple as 1-2-3:
 
 1. Open any panel (or use Group / Bind)
 2. Customize it according to your needs
@@ -23,8 +23,6 @@ The process of Template creation is as simple as 1-2-3:&#x20;
 ![“Save as template” option in panel’s context menu](<../.gitbook/assets/image (135).png>)
 
 All of the created templates are stored in Control center sidebar, under the _**“Templates”**_ group. So you can launch any template from this place any time you wish. You can put the saved templates on the Favorites bar of Control center, like any other default panel.
-
-![Templates section in Control center sidebar](../.gitbook/assets/templates.png)
 
 **Apply template.** Once you created several templates you can apply any of them to this particular panel.
 
@@ -41,4 +39,3 @@ If the separate panel is in the Bind, the template saving cannot be applied to i
 {% hint style="success" %}
 You can **share your templates** with other FlowTrade traders by sharing the template files with them. Template files can be found in “FlowTrade -> Settings -> Templates” folder.
 {% endhint %}
-

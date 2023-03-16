@@ -1,2 +1,0 @@
-# FlowTrade Licenses
-
