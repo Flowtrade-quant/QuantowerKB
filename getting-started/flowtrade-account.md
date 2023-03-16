@@ -2,10 +2,6 @@
 
 Flowtrade account (Account) is a part of Licensing functionality. It is required to bind a paid licenses for Flowtrade software and its add-ons per account holder.
 
-{% hint style="info" %}
-Actually, you don’t require to have an Account while using a **Free version** of Flowtrade.
-{% endhint %}
-
 Once you start using some paid feature, you will be asked to Login to your Account, so Flowtrade could verify whether you have the permission to use it. From this moment you can cancel the authorization process or proceed to log in. Once canceled you just won’t be able to use that paid feature. If you decide to log in, you need to have an Account and one of the paid licenses bound with it.
 
 ## Account creation
