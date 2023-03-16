@@ -40,8 +40,6 @@ For optimal use of the space on the Main Toolbar, we have added the ability to d
 
 All of the panels are placed in the _“Sidebar”_ screen, which is popping out once you click the **Logo icon** on the toolbar. The Main Menu consists of panel icons, grouped by functionality. Actually, in this menu, you can find all panels.
 
-![Main menu in the FlowTrade platform](../.gitbook/assets/main-manu.png)
-
 Each group in this menu can be collapsed in order to make the panels list cleaner. From this place, you can open any panel by left-clicking on its icon. Each group has its color to help you determine the functional assignment of each panel.
 
 The footer of the Main Menu contains several functions:

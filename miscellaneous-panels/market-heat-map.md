@@ -15,9 +15,6 @@ A trader can use this panel as a research tool to view the performance of variou
 ### How to work with the Market heat map panel?
 
 * Launch the **Marker heat map** panel from the Control Center. The panel is located in the _Misc_ category.
-
-![](<../.gitbook/assets/image (348) (1).png>)
-
 * Add the necessary symbols by clicking on the icon "+".
 
 ![](<../.gitbook/assets/image (355) (1) (1) (1) (1) (1).png>)
@@ -36,13 +33,12 @@ A trader can use this panel as a research tool to view the performance of variou
 
 *   You can save and switch between different lists of assets. For example, create a list of popular cryptocurrencies or a list of major US futures. After saving, you can select the desired actions:
 
-    &#x20; — **Add to Watchlist** allows you to add a previously saved list to the current
+    — **Add to Watchlist** allows you to add a previously saved list to the current
 
-    &#x20; — **Replace Watchlist** allows you to delete the current list and add all instruments from the previously saved one
+    — **Replace Watchlist** allows you to delete the current list and add all instruments from the previously saved one
 
 ![](<../.gitbook/assets/market heatmap lists.gif>)
 
 * The panel allows you to compare volume and price changes over the past day. Select the required date in the past, and the panel will load data for the analysis.
 
 ![](<../.gitbook/assets/market heatmap history.gif>)
-

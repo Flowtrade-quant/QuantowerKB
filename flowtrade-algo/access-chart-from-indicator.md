@@ -1,2 +1,0 @@
-# Access Chart from indicator
-

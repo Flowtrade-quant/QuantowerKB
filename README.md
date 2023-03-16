@@ -7,11 +7,11 @@ description: >-
 
 # Welcome to FlowTrade Help
 
-![](.gitbook/assets/main-workspace-for-help.png)
+<figure><img src=".gitbook/assets/computer main.png" alt=""><figcaption></figcaption></figure>
 
 For the answers you can't find in the Knowledge Base, please contact us via the following options:
 
-* Email us at **info@flowtrade.com**
+* <mark style="background-color:blue;">Email us at</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">**info@flowtrade.com**</mark>
 
 For ease of navigation, the Knowledge Base is divided into several categories that will allow you to quickly find the information you need:
 
@@ -25,14 +25,6 @@ For ease of navigation, the Knowledge Base is divided into several categories th
 
 {% content-ref url="trading-panels/" %}
 [trading-panels](trading-panels/)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="miscellaneous-panels/" %}

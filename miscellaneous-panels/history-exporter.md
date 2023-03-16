@@ -16,8 +16,6 @@ This panel allows traders to download any available history data for any availab
 
 To export historical data to an external CSV file, please open the **History Exporter panel** from the main platform menu.
 
-![](<../.gitbook/assets/image (201).png>)
-
 After you run this panel, you will be prompted to **Create a New Task** to export data.
 
 ![Create a new task in History Exporter panel](<../.gitbook/assets/image (199).png>)

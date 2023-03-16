@@ -2,7 +2,7 @@
 
 * [Welcome to FlowTrade Help](README.md)
 * [Getting Started](getting-started/README.md)
-  * [Installation](getting-started/installation.md)
+  * [💫 Installation/Connecting](getting-started/installation.md)
   * [FlowTrade Beta](getting-started/flowtrade-beta.md)
   * [FlowTrade Account](getting-started/flowtrade-account.md)
 * [General Settings](general-settings/README.md)
@@ -115,12 +115,8 @@
   * [History Exporter](miscellaneous-panels/history-exporter.md)
   * [Symbol Mapping Manager](miscellaneous-panels/symbol-mapping-manager.md)
   * [Sessions manager](miscellaneous-panels/sessions-manager.md)
-  * [Live Support](miscellaneous-panels/live-support.md)
   * [Market Heat map](miscellaneous-panels/market-heat-map.md)
-  * [Stat matrix](miscellaneous-panels/stat-matrix.md)
   * [Exchange times](miscellaneous-panels/exchange-times.md)
-  * [Quote Board](miscellaneous-panels/quote-board.md)
-  * [Browser](miscellaneous-panels/browser.md)
   * [Excel and RTD function](miscellaneous-panels/excel-rtd-trading/README.md)
     * [Changing RTD Throttle Interval in Excel](miscellaneous-panels/excel-rtd-trading/changing-rtd-throttle-interval-in-excel.md)
   * [FlowTrade Telegram Bot](miscellaneous-panels/flowtrade-telegram-bot.md)
@@ -128,8 +124,6 @@
   * [Introduction](flowtrade-algo/introduction.md)
   * [Install for Visual Studio](flowtrade-algo/install-for-visual-studio.md)
   * [Strategy runner (deprecated)](flowtrade-algo/strategy-runner-deprecated.md)
-  *
-  *
   * [Simple Indicator](flowtrade-algo/simple-indicator.md)
   * [Simple strategy](flowtrade-algo/simple-strategy.md)
   * [Input Parameters](flowtrade-algo/input-parameters.md)
@@ -138,7 +132,6 @@
   * [Level2 data](flowtrade-algo/level2-data.md)
   * [Access Volume analysis data from indicators](flowtrade-algo/access-volume-analysis-data-from-indicators.md)
   * [Indicator with custom painting (GDI)](flowtrade-algo/indicator-with-custom-painting-gdi.md)
-  * [Access Chart from indicator](flowtrade-algo/access-chart-from-indicator.md)
   * [Using markers with indicators](flowtrade-algo/using-markers-with-indicators.md)
   * [Using Clouds in Indicator](flowtrade-algo/using-clouds-in-indicator.md)
   * [Adding a custom indicator to Watchlist](flowtrade-algo/adding-a-custom-indicator-to-watchlist.md)

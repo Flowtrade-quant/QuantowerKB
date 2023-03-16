@@ -2,7 +2,7 @@
 description: System requirements and 3 simple steps to successfully install the platform
 ---
 
-# Installation
+# 💫 Installation/Connecting
 
 * [**System Requirements**](installation.md#pc-requirements)\*\*\*\*
 * [**Installation Steps**](installation.md#installation-steps)
@@ -22,7 +22,7 @@ This approach allows you to store (and launch) the Flowtrades on removable drive
 
 {% hint style="info" %}
 * Windows 10, 11
-* [.NET Framework v.4.8](https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-web-installer)
+* [.NET Framework v.4.8](https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-web-installer)&#x20;
 * Available disk space — 1 GB (depends on the volume of loaded history)
 * **The hardware requirements for Flowtrade depends upon what you are doing with it.** Most desktop systems can run Flowtrade without any difficulty.
 * The following hardware specifications, are very much recommended for a fast system: 16 GB RAM, minimum of 4-core CPU, and an SSD (solid-state drive).
@@ -44,8 +44,18 @@ We recommend using Windows 10.
 Please note, that you may need to allow an in-going and outgoing connection for _**Starter.exe**_ file (the main executable of Flowtrade terminal) in your Firewall settings
 {% endhint %}
 
-### Uninstall
+### Connecting
 
-If you need to uninstall the application, just _**delete the folder with all application files**_. You may also keep your personal settings (connection information & workspaces) by copying the Settings folder (can be found right in Flowtrade folder) before application delete. These Settings folder can be pasted to any other Flowtrade folder later.
+Next steps will be logging in to your account and connecting to a data feed
 
-You may also refer to [**Backup & Restore manager**](broken-reference) to backup your settings in one file and restore them later.
+
+
+<figure><img src="../.gitbook/assets/rt.webp" alt=""><figcaption></figcaption></figure>
+
+* Next click to open and build a work space from a premade template. Or simple start building your workspace out from here.(image below)
+* Please click on a star and favorite your data feeds that you are using. your favorites will remain on top bar.  (image below)
+* Once you are logged in click the Flowtrade data location to connect to both dark pool and equites connections.
+* If you have an account please log in to unlock all the features
+* If you havent already  please register an account by clicking the profile icon.
+
+<figure><img src="../.gitbook/assets/rtt.png" alt=""><figcaption></figcaption></figure>

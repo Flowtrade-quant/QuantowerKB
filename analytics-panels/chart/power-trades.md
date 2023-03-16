@@ -1,6 +1,6 @@
 # Power Trades
 
-This is where you will customize your personal view for block trades.  To see dark pool only block trades use Flowtrade dark pool. To see regular block trades use Flowtrade equities
+This is where you will customize your personal view for block trades.  <mark style="background-color:yellow;">To see dark pool only block trades use Flowtrade dark pool. To see regular block trades use Flowtrade equities</mark>
 
 ### What is **Power Trades**&#x20;
 

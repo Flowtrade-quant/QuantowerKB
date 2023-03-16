@@ -6,8 +6,6 @@ description: >-
 
 # Cluster chart
 
-{% embed url="https://youtu.be/xnUxEjMrKKM" %}
-
 ### What is Cluster chart?
 
 **Cluster chart**, known as Footprint chart in other trading platforms, is an advanced chart type that shows a comprehensive view of the candle chart. It allows to look inside the price and see all market actions. Cluster chart combines several important characteristics like time, OHLC prices, trading volume, number of buy and sell trades.
@@ -19,7 +17,7 @@ Using this information, a trader can evaluate:
 * zones of high trading interest (the maximum number of trades)
 * the number of buyers and sellers at each price level
 
-![Cluster chart with Imbalance view ](../../../.gitbook/assets/cluster-chart.png)
+![Cluster chart with Imbalance view](../../../.gitbook/assets/cluster-chart.png)
 
 ### How to enable cluster chart?
 
@@ -72,7 +70,7 @@ Cluster chart has various settings allowing to display of volume data from diffe
 * **Volume** — the total size of all positions that are executed at each price level or price range.
 * **Buy (or Sell) Volume** — the total size of all Buy (or sell) positions that are executed at each price level or price range.
 * **Buy (or Sell) Volume, %** — shows how many percent of the total volume relates to Buy (or Sell) trades
-* **Delta and Delta %** — shows the difference in traded Volume between Buyers and Sellers. It allows evaluating who controls the price on the market at a given time. \
+* **Delta and Delta %** — shows the difference in traded Volume between Buyers and Sellers. It allows evaluating who controls the price on the market at a given time.\
   Delta % = Delta / Volume \* 100
 * **Average size** — the average volume of the position that was executed at a certain price or price range.
 * **Average Buy size** — the average volume of a Buy position that was executed at a specific price or price range.
@@ -97,6 +95,6 @@ Select **Filtered Volume** as the data type in clusters to display them on the c
 
 ### What is Custom step and how to set it properly?
 
-Cluster chart shows volume data at each price level for a specified period. But with a large number of levels, the cluster chart becomes difficult to read.&#x20;
+Cluster chart shows volume data at each price level for a specified period. But with a large number of levels, the cluster chart becomes difficult to read.
 
 **Custom step** summarizes the volume data of as many price levels as specified in the setting. By default, the value of the custom step is set to 1 tick, which means the volume data are shown at each price level.
