@@ -8,9 +8,9 @@ description: >-
 
 This panel allows traders to download any available history data for any available symbol on their connection and save it in CSV format. You can use it for offline analysis in Excel or similar applications, for comparison or merge with other parts of history.
 
-* ****[**How to export historical data via the History Exporter panel?**](history-exporter.md#how-to-export-historical-data-via-the-history-exporter-panel)****
-* ****[**How to export historical data via other panels?**](history-exporter.md#how-to-export-historical-data-via-other-panels)****
-* ****[**How to open a downloaded file?**](history-exporter.md#how-to-open-a-downloaded-file)****
+* [**How to export historical data via the History Exporter panel?**](history-exporter.md#how-to-export-historical-data-via-the-history-exporter-panel)
+* [**How to export historical data via other panels?**](history-exporter.md#how-to-export-historical-data-via-other-panels)
+* [**How to open a downloaded file?**](history-exporter.md#how-to-open-a-downloaded-file)
 
 ## How to export historical data via the History Exporter panel?
 
@@ -40,7 +40,7 @@ You can also edit the settings for a selected symbol, like the data type or load
 You will not be able to change the settings of a task if it is already in the process of loading or paused. In this case, it must be removed from the list of tasks and re-add the required symbol with different settings.
 {% endhint %}
 
-![](<../.gitbook/assets/image (195).png>)
+![](<../.gitbook/assets/image (192).png>)
 
 ## How to open a downloaded file?
 
@@ -52,7 +52,7 @@ Once the data export is complete, click on the **Folder** icon to view all downl
 
 By using Export data via the menu of Chart and other table panels (Watchlist, T\&S) you can save the data to an external CSV file. You can save Price data, indicator values, values in tables.
 
-![](<../.gitbook/assets/image (204).png>)
+![](<../.gitbook/assets/image (207).png>)
 
 After clicking the **Export data** option, a setting window will appear in front of you, where you can specify the data type for export, as well as the format of the external file:
 

@@ -1,6 +1,6 @@
 # Backtest & Optimize
 
-Previously a part of the "Strategy runner" panel's functionality, strategies backtesting is integral to any algo-trading development process. With the latest FlowTrade update, we separated this feature into an individual panel called the "Backtest & Optimize." Let's learn more about this tool and its new features and enhancements.
+Previously a part of the "Strategy runner" panel's functionality, strategies backtesting is integral to any algo-trading development process. With the latest Quantower update, we separated this feature into an individual panel called the "Backtest & Optimize." Let's learn more about this tool and its new features and enhancements.
 
 ## Start & general view
 
@@ -8,7 +8,7 @@ Once you launch the Backtest & Optimize (B\&O) panel, you should select a strate
 
 <figure><img src="../.gitbook/assets/backtest-optimize.png" alt=""><figcaption><p>Backtest &#x26; optimize panel general view</p></figcaption></figure>
 
-The B\&O panel consists of two main sections:&#x20;
+The B\&O panel consists of two main sections:
 
 * **Configuration section**, where you specify parameters for backtesting or optimization tasks and start them.
 * **Backtests tasks history**, where the panel will store testing/optimization tasks and their history.
@@ -37,8 +37,7 @@ Depending on the mode you select, you will see a set of various parameters divid
 * **Starting and ending dates** are a period in history used by the backtester to emulate the trading data.
 * **Start replaying from the date** (inside the above period). This could be useful in case your strategy needs historical data.
 * **Testing symbol**(s). Allows to specify one or multiple symbols the strategy will use in a testing environment.
-*   **Advanced settings**. Opens a screen with extra environment emulation parameters per each symbol selected for testing:\
-
+*   **Advanced settings**. Opens a screen with extra environment emulation parameters per each symbol selected for testing:\\
 
     <figure><img src="../.gitbook/assets/backtest-advanced.png" alt=""><figcaption><p>Advanced settings of the backtesting environment</p></figcaption></figure>
 
@@ -55,7 +54,7 @@ Depending on the mode you select, you will see a set of various parameters divid
 
 ### Strategy parameters
 
-The <mark style="color:blue;">**strategy parameters**</mark> section contains a list of parameters the selected strategy requires.&#x20;
+The <mark style="color:blue;">**strategy parameters**</mark> section contains a list of parameters the selected strategy requires.
 
 {% hint style="info" %}
 Please note. The selected strategy will use one of the specified backtesting environment symbols as an operating symbol.
@@ -65,7 +64,7 @@ Please note. The selected strategy will use one of the specified backtesting env
 
 Being in a Backtesting mode, just before launching the new task, you can select the <mark style="color:blue;">**processing mode**</mark> (the way how backtester will replay history) from the following list:
 
-* Speed control. Allows you to interactively adapt the history replay speed or pause during the task processing. You can also visualize the history replay in one of the FlowTrade panels and see your strategy behavior over time.
+* Speed control. Allows you to interactively adapt the history replay speed or pause during the task processing. You can also visualize the history replay in one of the Quantower panels and see your strategy behavior over time.
 * Step by step. Backterster will process history playback tick by tick based on the used symbol’s timeframe settings.
 * Background. In this mode, the backtester will process your task with the highest possible speed, and you will only see the results after it ends.
 
@@ -100,7 +99,7 @@ The Backtests history manager section consists of the tasks list and task result
 
 ### Visualizer
 
-You can see the history replay process via applicable panels (Chart, DOM Trader, Market Depth, Time\&Sales, Account performance, DOM Surface, TPO Chart, Symbol info) in Speed control & Step-by-step processing modes.&#x20;
+You can see the history replay process via applicable panels (Chart, DOM Trader, Market Depth, Time\&Sales, Account performance, DOM Surface, TPO Chart, Symbol info) in Speed control & Step-by-step processing modes.
 
 <figure><img src="../.gitbook/assets/visualizer.png" alt=""><figcaption><p>Backtest results Visualizer options</p></figcaption></figure>
 
@@ -110,7 +109,7 @@ In Background mode, you can Visualize only the final results of processing. In t
 
 Once you right-click on a row in a tasks list, you will find additional functions, as follows:
 
-* **Add live strategy with the same parameters**. Launches a Strategies manager panel and adds the selected strategy with parameters used in this backtest.&#x20;
+* **Add live strategy with the same parameters**. Launches a Strategies manager panel and adds the selected strategy with parameters used in this backtest.
 * **Apply environment settings**. Copies environment settings from selected task to Config section.
 * **Apply strategy settings**. Copies strategy parameters from selected task to Config section.
 * **Visualize**. Operations with Visualizer.
@@ -125,7 +124,7 @@ When you've started a new manual backtesting task, you may select it in the task
 
 <figure><img src="../.gitbook/assets/backtest-progress.png" alt=""><figcaption><p>Backtest progress controls</p></figcaption></figure>
 
-* Progress meter, showing history playback progress in percent and Start - Current - End date times.&#x20;
+* Progress meter, showing history playback progress in percent and Start - Current - End date times.
 * Speed controls, with a <mark style="background-color:blue;">\[ pause ]</mark> button, <mark style="background-color:blue;">\[ next step ]</mark> button (when paused), and a history playback speed slider (0/pause to 100% speed).
 * \[ Stop backtesting ] button, allowing an instant termination of a selected task.
 

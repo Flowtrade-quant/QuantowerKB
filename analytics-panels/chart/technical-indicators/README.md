@@ -18,7 +18,7 @@ description: >-
 {% endtab %}
 
 {% tab title="Oscillators" %}
-![](<../../../.gitbook/assets/image (356) (1) (1) (1).png>)![](<../../../.gitbook/assets/image (354) (1) (1).png>)
+![](<../../../.gitbook/assets/image (349).png>) ![](<../../../.gitbook/assets/image (354) (1) (1).png>)
 {% endtab %}
 
 {% tab title="Trend" %}
@@ -30,7 +30,7 @@ description: >-
 {% endtab %}
 
 {% tab title="Volume" %}
-![](<../../../.gitbook/assets/image (353) (1) (1).png>)
+![](<../../../.gitbook/assets/image (358) (1) (1).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -57,4 +57,3 @@ description: >-
 {% content-ref url="volume/" %}
 [volume](volume/)
 {% endcontent-ref %}
-

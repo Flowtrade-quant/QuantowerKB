@@ -2,7 +2,7 @@
 description: In this article we will look at the basic doom settings for scalping
 ---
 
-# How to set up Dom  for scalping
+# How to set up Dom for scalping
 
 ### Refrash rate of the Dom Trader
 
@@ -38,7 +38,7 @@ Now your Dom Trader should look like on the picture. **Stretch the height** of y
 
 ### How to set bid ask in one column
 
-![](<../../.gitbook/assets/image (234).png>)
+![](<../../.gitbook/assets/image (228).png>)
 
 To set bid and ask over each other use split size colums setting. **Close Panel DOM trader settings!**
 
@@ -52,7 +52,7 @@ Note that after applying this setting, you must close the PANEL with settings an
 
 ![](<../../.gitbook/assets/image (211).png>)
 
-The essence of scalping is to see **large orders in the stack** and act in the context of the market situation. Let's take a look at how I set up the Dom. And so for that let's go to the column settings and select Bids and Asks. At first I remove the gradient setting it is a little uncomfortable for my eyes.  I want to see contrasting volumes. Observe the Dom and choose really **big volumes** and specify that value in the settings
+The essence of scalping is to see **large orders in the stack** and act in the context of the market situation. Let's take a look at how I set up the Dom. And so for that let's go to the column settings and select Bids and Asks. At first I remove the gradient setting it is a little uncomfortable for my eyes. I want to see contrasting volumes. Observe the Dom and choose really **big volumes** and specify that value in the settings
 
 ### How to set coins quantity
 

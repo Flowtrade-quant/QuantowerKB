@@ -1,5 +1,5 @@
 ---
-description: Run your strategies in FlowTrade like a pro
+description: Run your strategies in Quantower like a pro
 ---
 
 # Strategies manager
@@ -40,7 +40,7 @@ The <mark style="color:blue;">**Strategies list**</mark> section is the main wor
 
 ### Metrics & Logs
 
-The <mark style="color:blue;">**Metrics and Logs**</mark> sections are responsible for displaying the activity information of the selected strategy. Once you run some strategy, it will start updating its metrics and write activity logs, if there are any.&#x20;
+The <mark style="color:blue;">**Metrics and Logs**</mark> sections are responsible for displaying the activity information of the selected strategy. Once you run some strategy, it will start updating its metrics and write activity logs, if there are any.
 
 The strategies manager will keep logs and metrics if you stop your strategy. On the next run, the metrics section will be updated, while logs will store all previous entries and append them with the new ones. **The whole platform's restart will erase all logs and metrics.**
 
@@ -54,6 +54,6 @@ When you run any of your strategies, it will activate an Automations indicator (
 
 ## Relaunch on the platform’s restart
 
-By default, if you close the whole application while having active strategies, they will be stopped and will not be resumed on the next platform’s launch (you need to restart them manually).&#x20;
+By default, if you close the whole application while having active strategies, they will be stopped and will not be resumed on the next platform’s launch (you need to restart them manually).
 
 If you want the Strategies manager to renew automatically, check the “<mark style="color:blue;">**Restore strategies state after shutdown**</mark>” in the General section of the panel’s settings screen.
