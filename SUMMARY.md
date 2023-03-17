@@ -142,3 +142,5 @@
   * [Access to crypto account and balances](flowtrade-algo/access-to-crypto-account-and-balances.md)
   * [Access to advanced aggregations](flowtrade-algo/access-to-advanced-aggregations.md)
   * [Access to symbol/account additional fields](flowtrade-algo/access-to-symbol-account-additional-fields.md)
+* [CONNECTIONS](connections/README.md)
+  * [Interactive brokers](connections/interactive-brokers.md)
