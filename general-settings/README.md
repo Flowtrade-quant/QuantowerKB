@@ -2,8 +2,6 @@
 
 **Main Toolbar** — is the main starting point of the platform, used as a launcher and informer simultaneously.
 
-![Quantower Main toolbar](<../.gitbook/assets/image (73).png>)
-
 Main Toolbar technically is a panel, but behaves something differently: it can be dragged among your screens (if you have more than one) and it will be always stuck at the top of the screen. It adapts own width up to the screen width and it participates in the workspace, meaning, that other panels can be stuck to it.
 
 ![](../.gitbook/assets/main-toolbar.png)
