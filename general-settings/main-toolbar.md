@@ -8,8 +8,6 @@ description: >-
 
 **Main Toolbar** — is the main starting point of the platform, used as a launcher and informer simultaneously.
 
-![FlowTrade Main toolbar](<../.gitbook/assets/image (73).png>)
-
 Main Toolbar technically is a panel, but behaves something differently: it can be dragged among your screens (if you have more than one) and it will be always stuck at the top of the screen. It adapts own width up to the screen width and it participates in the workspace, meaning, that other panels can be stuck to it.
 
 ![](../.gitbook/assets/main-toolbar.png)
@@ -34,7 +32,7 @@ The “_**Close**_” icon just closes the platform. You may set up the “_not 
 
 For optimal use of the space on the Main Toolbar, we have added the ability to display/hide some controls. For example, to hide the Timezones, Workspaces, Connections, etc., **Right-click** on the context menu and go to the View section. By clicking on the ticks, the controls will appear at the Toolbar.
 
-![Right click on the Main Toolbar will bring up the addtional settings window](<../.gitbook/assets/image (76).png>)
+<figure><img src="../.gitbook/assets/yyyyyy.png" alt=""><figcaption></figcaption></figure>
 
 ### Main Menu with all panels
 
@@ -55,9 +53,9 @@ The list of links in footer can contain more or fewer items, depending on curren
 
 You might already have seen the Star icon in the right top corners of some panels tiles in Sidebar. This is the “**Favorite panels**” functionality, allowing you to select the most usable panels and place their icons on the Main Toolbar.
 
-![Favorite panels](../.gitbook/assets/favorite-panels.gif)
-
 The way to use it is very simple — hover over the right top corner of any panel tile in Sidebar and click the Star icon that appeared. That is all: a panel appears in the Favorite panels bar in Main Toolbar. To remove from favorites just click the activated Star icon on Panel's tile or right-click on the icon in Favorites panel and select “_**Hide from toolbar**_”.
+
+<figure><img src="../.gitbook/assets/77777.png" alt=""><figcaption></figcaption></figure>
 
 ### Lock trading
 
@@ -70,10 +68,6 @@ If you would like to prevent manual trading operations occur, you may use the �
 This feature is useful in case you would like to only analyze the market or while editing your workspace (mostly to avoid misclicks).
 
 ### Workspaces manager
-
-{% embed url="https://www.youtube.com/watch?v=A_2gJdeP-08&t=20s" %}
-Create and save your workspace in FlowTrade
-{% endembed %}
 
 **Workspaces manager** allows you to see, create, edit and delete your working environments as well as lock their modification. It is represented with the special icon, that opens the list of available Workspaces once being clicked.
 

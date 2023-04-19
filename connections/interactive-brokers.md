@@ -38,7 +38,7 @@ The difference between IB Gateway and TWS is that IB Gateway has a lighter and l
 
 ​![](https://1977910382-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-LD6FsRvQ3jgwJIg6O7r%2F-MhwSMtTgBnH1z\_\_YvkG%2F-MhwX0FdsE5FPFYs3Er6%2Fimage.png?alt=media\&token=fc141be5-ec25-42bd-9489-01ebe0243964)​
 
-* Once you are logged in, open the additional settings in TWS: **Configure**. Select **API** section - > **Settings** and check to **Enable ActiveX and Socket Clients** box as well **** uncheck **Read-Only API**
+* Once you are logged in, open the additional settings in TWS: **Configure**. Select **API** section - > **Settings** and check to **Enable ActiveX and Socket Clients** box as well uncheck **Read-Only API**
 
 ​![](https://1977910382-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-LD6FsRvQ3jgwJIg6O7r%2F-MhwSMtTgBnH1z\_\_YvkG%2F-Mhw\_W1-ZW0Pd2auJSvX%2Fimage.png?alt=media\&token=22212e3e-22f3-4fc6-b37c-0bcb7edda91d)Diactivate Read-Only API and check Socket Clients in TWS platform
 
