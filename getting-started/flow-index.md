@@ -2,7 +2,7 @@
 description: Your introduction to the flow index and how to use it.
 ---
 
-# 🤖 Flow Index
+# ⚓ Flow Index
 
 
 
