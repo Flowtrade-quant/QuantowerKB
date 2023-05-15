@@ -31,7 +31,7 @@ Heatmap also shows the dynamics (increase or decrease in volume) of limit orders
 
 In addition to visualizing the flow of limit orders, there are Volume Analysis Tools, which show the distribution of trade volume, delta and other data for a selected period of time.
 
-More information about each tool can be found in our documentation in the Analytical Panels — Chart — [Volume Analysis Tools](chart/volume-analysis-tools/) section.
+More information about each tool can be found in our documentation in the Analytical Panels — Chart — [Volume Analysis Tools](../chart/volume-analysis-tools/) section.
 
 ### General Settings
 

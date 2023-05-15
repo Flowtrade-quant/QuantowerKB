@@ -1,4 +1,4 @@
-# 😎 MEET THE TEAM
+# 😎 Meet the Team
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-12-05 181207.png" alt=""><figcaption></figcaption></figure>
 

@@ -9,7 +9,7 @@ description: >-
 
 ## How to create a custom hotkey?
 
-You can find Custom hotkeys functionality in the [Chart](../analytics-panels/chart/) & [Watchlist ](../analytics-panels/watchlist.md)panels (for now) settings and the [General settings](general-settings-1.md) of the terminal. It is a separate collapsible block at the beginning of the Hotkeys section.
+You can find Custom hotkeys functionality in the [Chart](../chart/) & [Watchlist ](../analytics-panels/watchlist.md)panels (for now) settings and the [General settings](general-settings-1.md) of the terminal. It is a separate collapsible block at the beginning of the Hotkeys section.
 
 ![Custom hotkeys in Chart panel settings](<../.gitbook/assets/image3 (2).png>)
 

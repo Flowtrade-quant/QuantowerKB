@@ -33,9 +33,9 @@ To open a new TPO panel, go to the _**Main menu**_ (Logo icon) and select _**TPO
 
 There are three main controls on the top toolbar of TPO chart panel:
 
-* ****[**Aggregation**](tpo-chart.md#aggregation-of-tpo-profile-chart)****
-* ****[**Style**](tpo-chart.md#style-settings-of-tpo-profile-chart)****
-* ****[**Volume Analysis**](tpo-chart.md#volume-analysis)****
+* [**Aggregation**](tpo-chart.md#aggregation-of-tpo-profile-chart)
+* [**Style**](tpo-chart.md#style-settings-of-tpo-profile-chart)
+* [**Volume Analysis**](tpo-chart.md#volume-analysis)
 
 ### Aggregation of TPO Profile Chart
 
@@ -61,8 +61,7 @@ Choose any color scheme for better representation and analysis of the TPO profil
 
 ![Display TPO Profile as Filled Boxes or Letters](../.gitbook/assets/display-boxes-or-letters.png)
 
-* **Coloring Mode —** choose any color scheme for better representation and analysis of the TPO profile. Currently, there are 10 different coloring modes available — **Single Color, Up/Down Profile, Up/Down Bars, Heatmap, Delta Profile, Delta Price, Delta Bars, Volume Profile, Volume Price, Volume Bars**.\
-
+* **Coloring Mode —** choose any color scheme for better representation and analysis of the TPO profile. Currently, there are 10 different coloring modes available — **Single Color, Up/Down Profile, Up/Down Bars, Heatmap, Delta Profile, Delta Price, Delta Bars, Volume Profile, Volume Price, Volume Bars**.\\
 * **POC Type** — price level of the greatest market activity or trading volume on the chart. Available two types:\
   \
   **Final POC**, shows the single line\
@@ -70,16 +69,13 @@ Choose any color scheme for better representation and analysis of the TPO profil
 
 ![POC Type on TPO Profile chart](<../.gitbook/assets/POC Type on TPO profile.gif>)
 
-* **Plot Symbol** — show/ hide the standard chart on the TPO Profile chart. Select a **** [**chart style**](chart/chart-types/#chart-types-and-styles)**:** _**Bar, Candle, Line, Area, Dotted Line, FlowTrade style**_.
+* **Plot Symbol** — show/ hide the standard chart on the TPO Profile chart. Select a \*\*\*\* [**chart style**](../chart/chart-types/#chart-types-and-styles)**:** _**Bar, Candle, Line, Area, Dotted Line, FlowTrade style**_.
 
 ![](../.gitbook/assets/overlaying-chart.gif)
 
-* **Show Value Area** — enable price range in which approximately 68% - 70% of the market activity or trading volume took place.\
-
-* **Show Singles** or **single prints** of the profile are placed in the middle of a profile structure, not at the upper or lower edge. They occur on impulse movements and are used as support/resistance zones, which the price can test in the near future. The singles line indicates where the singles begin to form (in cases when there are several single prints).\
-
-* **Midpoint** shows at what price the middle of the profile is located.\
-
+* **Show Value Area** — enable price range in which approximately 68% - 70% of the market activity or trading volume took place.\\
+* **Show Singles** or **single prints** of the profile are placed in the middle of a profile structure, not at the upper or lower edge. They occur on impulse movements and are used as support/resistance zones, which the price can test in the near future. The singles line indicates where the singles begin to form (in cases when there are several single prints).\\
+* **Midpoint** shows at what price the middle of the profile is located.\\
 * **Initial Balance (IB)** shows the price range that is usually formed during the first hour of a trading session or day. In the settings, you can change the duration of the formation of the initial balance (for example, 10 minutes, 30 minutes etc.)
 
 ![Enable Value Area, Singles, Midpoint and Initial Balance on TPO Profile](<../.gitbook/assets/TPO profile additional lines.gif>)
@@ -90,7 +86,7 @@ TPO profiles are used on their own to find areas of support and resistance, and 
 
 ![Add Volume Profiles on TPO Profile Chart](../.gitbook/assets/volume-analysis-tpo.gif)
 
-Switch Volume Profile between [**different data types**](chart/volume-analysis-tools/#data-types-of-volume-analysis-tools), such as delta, buy\&sell, trades, volume, etc.
+Switch Volume Profile between [**different data types**](../chart/volume-analysis-tools/#data-types-of-volume-analysis-tools), such as delta, buy\&sell, trades, volume, etc.
 
 ## Splitting & Merging of TPO Profile Chart
 
@@ -179,17 +175,5 @@ Settings for **SL/TP on TPO Profile** chart
 These settings are responsible for this panel:
 
 ![](<../.gitbook/assets/image (21).png>)
-{% endtab %}
-
-{% tab title="Quick ruler " %}
-
-{% endtab %}
-
-{% tab title="Volume bars " %}
-
-{% endtab %}
-
-{% tab title="Hotkeys" %}
-
 {% endtab %}
 {% endtabs %}
