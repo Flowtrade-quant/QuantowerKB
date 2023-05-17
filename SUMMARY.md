@@ -150,3 +150,4 @@
 * [CONNECTIONS](connections/README.md)
   * [FlowTrade Beta](connections/flowtrade-beta.md)
   * [Interactive brokers](connections/interactive-brokers.md)
+  * [Rithmic / APEX](connections/rithmic-apex.md)
