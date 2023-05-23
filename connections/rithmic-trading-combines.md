@@ -1,11 +1,10 @@
 ---
 description: >-
   !!For all NEW users. Make sure to sign the 2 agreements upon first login into
-  rTrader Pro. These are mandatory!! ---MAKE SURE!!!!!! YOU CHOOSE "Apex" for
-  your "System" setting NONOT!!! "Rithmic Paper
+  rTrader Pro. These are mandatory!! -
 ---
 
-# Rithmic / APEX
+# Rithmic / Trading combines&#x20;
 
 ## Connection to Rithmic
 
